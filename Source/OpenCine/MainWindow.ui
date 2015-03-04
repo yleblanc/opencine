@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1227</width>
-    <height>746</height>
+    <height>620</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -393,8 +393,8 @@ QPushButton::checked
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>273</width>
-          <height>166</height>
+          <width>572</width>
+          <height>229</height>
          </rect>
         </property>
         <attribute name="label">
@@ -418,8 +418,8 @@ QPushButton::checked
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>273</width>
-          <height>166</height>
+          <width>572</width>
+          <height>174</height>
          </rect>
         </property>
         <attribute name="label">
@@ -555,6 +555,7 @@ QPushButton::checked
     <string>_About</string>
    </property>
   </action>
+  <zorder>dockWidget_4</zorder>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <tabstops>

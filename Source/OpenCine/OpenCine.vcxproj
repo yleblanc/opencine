@@ -1,0 +1,875 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{55878EC6-B3D2-4AE6-97E7-EE9A81273C0D}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>OpenCine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\bin\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">OpenCine.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">OpenCine</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\bin\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">OpenCine.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">OpenCine</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">OpenCine.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">OpenCine</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">OpenCine.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">OpenCine</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -std=c++11 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_OPENGL_LIB;WIN32;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_OPENGL_LIB;WIN32;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target OpenCine</Message>
+      <Command>setlocal
+cd C:\yannick\VR\OpenCine\GIT\Source\OpenCine
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeFiles/OpenCine_automoc.dir/ Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;..\..\bin\libraw.dll;C:\Qt\5.4\mingw491_32\lib\libQt5QuickWidgetsd.a;C:\Qt\5.4\mingw491_32\lib\libQt5OpenGLd.a;C:\Qt\5.4\mingw491_32\lib\libQt5Quickd.a;C:\Qt\5.4\mingw491_32\lib\libQt5Qmld.a;C:\Qt\5.4\mingw491_32\lib\libQt5Networkd.a;C:\Qt\5.4\mingw491_32\lib\libQt5Widgetsd.a;C:\Qt\5.4\mingw491_32\lib\libQt5Guid.a;C:\Qt\5.4\mingw491_32\lib\libQt5Cored.a;C:\Qt\5.4\mingw491_32\lib\libqtmaind.a</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Debug/OpenCine.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/yannick/VR/OpenCine/GIT/bin/OpenCine.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -std=c++11 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_OPENGL_LIB;WIN32;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_OPENGL_LIB;WIN32;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target OpenCine</Message>
+      <Command>setlocal
+cd C:\yannick\VR\OpenCine\GIT\Source\OpenCine
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeFiles/OpenCine_automoc.dir/ Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;..\..\bin\libraw.dll;C:\Qt\5.4\mingw491_32\lib\libQt5QuickWidgets.a;C:\Qt\5.4\mingw491_32\lib\libQt5OpenGL.a;C:\Qt\5.4\mingw491_32\lib\libQt5Quick.a;C:\Qt\5.4\mingw491_32\lib\libQt5Qml.a;C:\Qt\5.4\mingw491_32\lib\libQt5Network.a;C:\Qt\5.4\mingw491_32\lib\libQt5Widgets.a;C:\Qt\5.4\mingw491_32\lib\libQt5Gui.a;C:\Qt\5.4\mingw491_32\lib\libQt5Core.a;C:\Qt\5.4\mingw491_32\lib\libqtmain.a</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Release/OpenCine.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/yannick/VR/OpenCine/GIT/bin/OpenCine.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -std=c++11 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_OPENGL_LIB;WIN32;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_OPENGL_LIB;WIN32;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target OpenCine</Message>
+      <Command>setlocal
+cd C:\yannick\VR\OpenCine\GIT\Source\OpenCine
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeFiles/OpenCine_automoc.dir/ MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;..\..\bin\libraw.dll;C:\Qt\5.4\mingw491_32\lib\libQt5QuickWidgets.a;C:\Qt\5.4\mingw491_32\lib\libQt5OpenGL.a;C:\Qt\5.4\mingw491_32\lib\libQt5Quick.a;C:\Qt\5.4\mingw491_32\lib\libQt5Qml.a;C:\Qt\5.4\mingw491_32\lib\libQt5Network.a;C:\Qt\5.4\mingw491_32\lib\libQt5Widgets.a;C:\Qt\5.4\mingw491_32\lib\libQt5Gui.a;C:\Qt\5.4\mingw491_32\lib\libQt5Core.a;C:\Qt\5.4\mingw491_32\lib\libqtmain.a</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MinSizeRel/OpenCine.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/yannick/VR/OpenCine/GIT/bin/MinSizeRel/OpenCine.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -std=c++11 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_OPENGL_LIB;WIN32;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_OPENGL_LIB;WIN32;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target OpenCine</Message>
+      <Command>setlocal
+cd C:\yannick\VR\OpenCine\GIT\Source\OpenCine
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeFiles/OpenCine_automoc.dir/ RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;..\..\bin\libraw.dll;C:\Qt\5.4\mingw491_32\lib\libQt5QuickWidgets.a;C:\Qt\5.4\mingw491_32\lib\libQt5OpenGL.a;C:\Qt\5.4\mingw491_32\lib\libQt5Quick.a;C:\Qt\5.4\mingw491_32\lib\libQt5Qml.a;C:\Qt\5.4\mingw491_32\lib\libQt5Network.a;C:\Qt\5.4\mingw491_32\lib\libQt5Widgets.a;C:\Qt\5.4\mingw491_32\lib\libQt5Gui.a;C:\Qt\5.4\mingw491_32\lib\libQt5Core.a;C:\Qt\5.4\mingw491_32\lib\libqtmain.a</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/yannick/VR/OpenCine/GIT/Source/OpenCine/RelWithDebInfo/OpenCine.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/yannick/VR/OpenCine/GIT/bin/RelWithDebInfo/OpenCine.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/yannick/VR/OpenCine/GIT -BC:/yannick/VR/OpenCine/GIT --check-stamp-file C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeLists.txt;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5QuickWidgets\Qt5QuickWidgetsConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5QuickWidgets\Qt5QuickWidgetsConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5Qml_QtQuick2Plugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/yannick/VR/OpenCine/GIT -BC:/yannick/VR/OpenCine/GIT --check-stamp-file C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeLists.txt;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5QuickWidgets\Qt5QuickWidgetsConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5QuickWidgets\Qt5QuickWidgetsConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5Qml_QtQuick2Plugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/yannick/VR/OpenCine/GIT -BC:/yannick/VR/OpenCine/GIT --check-stamp-file C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeLists.txt;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5QuickWidgets\Qt5QuickWidgetsConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5QuickWidgets\Qt5QuickWidgetsConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5Qml_QtQuick2Plugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/yannick/VR/OpenCine/GIT -BC:/yannick/VR/OpenCine/GIT --check-stamp-file C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeLists.txt;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5QuickWidgets\Qt5QuickWidgetsConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5QuickWidgets\Qt5QuickWidgetsConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5Qml_QtQuick2Plugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Console.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_Console.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_Console.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Console.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Console.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Console.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_Console.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_Console.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_Console.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Console.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Console.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Console.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_Console.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_Console.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_Console.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Console.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Console.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Console.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_Console.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_Console.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_Console.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Console.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Console.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Console.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_Console.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\FileBrowserView.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_FileBrowserView.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_FileBrowserView.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/FileBrowserView.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/FileBrowserView.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\FileBrowserView.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_FileBrowserView.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_FileBrowserView.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_FileBrowserView.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/FileBrowserView.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/FileBrowserView.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\FileBrowserView.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_FileBrowserView.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_FileBrowserView.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_FileBrowserView.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/FileBrowserView.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/FileBrowserView.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\FileBrowserView.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_FileBrowserView.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_FileBrowserView.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_FileBrowserView.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/FileBrowserView.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/FileBrowserView.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\FileBrowserView.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_FileBrowserView.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MainWindow.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_MainWindow.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_MainWindow.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MainWindow.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MainWindow.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MainWindow.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MainWindow.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_MainWindow.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_MainWindow.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MainWindow.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MainWindow.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MainWindow.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MainWindow.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_MainWindow.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_MainWindow.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MainWindow.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MainWindow.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MainWindow.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MainWindow.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_MainWindow.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_MainWindow.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MainWindow.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MainWindow.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MainWindow.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MainWindow.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MediaExplorerView.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_MediaExplorerView.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_MediaExplorerView.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MediaExplorerView.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MediaExplorerView.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MediaExplorerView.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MediaExplorerView.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_MediaExplorerView.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_MediaExplorerView.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MediaExplorerView.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MediaExplorerView.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MediaExplorerView.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MediaExplorerView.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_MediaExplorerView.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_MediaExplorerView.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MediaExplorerView.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MediaExplorerView.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MediaExplorerView.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MediaExplorerView.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_MediaExplorerView.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_MediaExplorerView.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MediaExplorerView.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MediaExplorerView.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MediaExplorerView.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MediaExplorerView.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\NewMainWindow.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_NewMainWindow.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_NewMainWindow.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/NewMainWindow.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/NewMainWindow.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\NewMainWindow.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_NewMainWindow.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_NewMainWindow.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_NewMainWindow.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/NewMainWindow.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/NewMainWindow.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\NewMainWindow.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_NewMainWindow.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_NewMainWindow.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_NewMainWindow.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/NewMainWindow.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/NewMainWindow.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\NewMainWindow.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_NewMainWindow.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_NewMainWindow.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_NewMainWindow.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/NewMainWindow.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/NewMainWindow.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\NewMainWindow.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_NewMainWindow.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PlaybackSlider.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_PlaybackSlider.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_PlaybackSlider.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PlaybackSlider.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PlaybackSlider.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PlaybackSlider.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PlaybackSlider.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_PlaybackSlider.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_PlaybackSlider.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PlaybackSlider.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PlaybackSlider.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PlaybackSlider.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PlaybackSlider.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_PlaybackSlider.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_PlaybackSlider.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PlaybackSlider.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PlaybackSlider.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PlaybackSlider.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PlaybackSlider.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_PlaybackSlider.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_PlaybackSlider.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PlaybackSlider.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PlaybackSlider.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PlaybackSlider.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PlaybackSlider.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PreviewPane.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_PreviewPane.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_PreviewPane.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PreviewPane.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PreviewPane.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PreviewPane.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PreviewPane.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_PreviewPane.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_PreviewPane.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PreviewPane.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PreviewPane.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PreviewPane.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PreviewPane.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_PreviewPane.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_PreviewPane.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PreviewPane.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PreviewPane.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PreviewPane.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PreviewPane.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_PreviewPane.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_PreviewPane.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PreviewPane.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PreviewPane.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PreviewPane.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PreviewPane.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating qrc_Resources.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\rcc.exe -name Resources -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/qrc_Resources.cpp C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Resources.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Resources.qrc;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\frame_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\frame_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\jump_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\jump_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\marker_end.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\marker_start.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\play_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\play_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\stop.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\pause.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\logo.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc.depends;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\qrc_Resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating qrc_Resources.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\rcc.exe -name Resources -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/qrc_Resources.cpp C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Resources.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Resources.qrc;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\frame_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\frame_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\jump_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\jump_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\marker_end.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\marker_start.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\play_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\play_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\stop.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\pause.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\logo.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc.depends;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\qrc_Resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating qrc_Resources.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\rcc.exe -name Resources -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/qrc_Resources.cpp C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Resources.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Resources.qrc;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\frame_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\frame_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\jump_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\jump_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\marker_end.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\marker_start.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\play_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\play_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\stop.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\pause.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\logo.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc.depends;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\qrc_Resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating qrc_Resources.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt\5.4\mingw491_32\bin\rcc.exe -name Resources -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/qrc_Resources.cpp C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Resources.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Resources.qrc;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\frame_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\frame_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\jump_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\jump_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\marker_end.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\marker_start.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\play_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\play_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\stop.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\pause.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\logo.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc.depends;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\qrc_Resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_Console.h" />
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_FileBrowserView.h" />
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MainWindow.h" />
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MediaExplorerView.h" />
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_NewMainWindow.h" />
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PlaybackSlider.h" />
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PreviewPane.h" />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Console.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core\Context.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider\FFmpegDataProvider.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider\LibRawDataProvider.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider\RawSpeedDataProvider.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage\StaticMemoryAllocator.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\FileBrowserView.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Main.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MainWindow.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MediaExplorerView.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model\MediaExplorerModel.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\NewMainWindow.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PlaybackSlider.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter\MediaExplorerPresenter.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter\PlaybackPresenter.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PreviewPane.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline\SimpleProcessingPipeline.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\qrc_Resources.cpp"  />
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\OpenCine_automoc.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/yannick/VR/OpenCine/GIT/ZERO_CHECK.vcxproj">
+      <Project>CDF87DAE-C5A1-4819-89D6-29AB7413CF87</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

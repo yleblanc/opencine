@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>Icons/frame_fwd.png</file>
+        <file>Icons/frame_rev.png</file>
+        <file>Icons/jump_fwd.png</file>
+        <file>Icons/jump_rev.png</file>
+        <file>Icons/marker_end.png</file>
+        <file>Icons/marker_start.png</file>
+        <file>Icons/play_fwd.png</file>
+        <file>Icons/play_rev.png</file>
+        <file>Icons/stop.png</file>
+        <file>Icons/pause.png</file>
+    </qresource>
+    <qresource prefix="/Images">
+        <file>Icons/logo.png</file>
+    </qresource>
+</RCC>

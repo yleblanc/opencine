@@ -1,4 +1,5 @@
-#include "MainWindow.h"
+//#include "MainWindow.h"
+#include "NewMainWindow.h"
 #include <QApplication>
 #include <QDir>
 #include <QFile>
@@ -136,7 +137,8 @@ int main(int argc, char *argv[])
 
   //proc->start();
 
-  MainWindow* mainWindow = new MainWindow(context);
+  //MainWindow* mainWindow = new MainWindow(context);
+  NewMainWindow* mainWindow = new NewMainWindow(context);
   mainWindow->setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
 
   // Load an application style

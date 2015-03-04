@@ -109,7 +109,7 @@ elseif(CMAKE_SYSTEM_NAME STREQUAL "Windows")
     #${Qt5Core_QTMAIN_LIBRARIES}
     #${QT_LIBRARIES}
     ${OPENGL_LIBRARIES}
-	"${CMAKE_BINARY_DIR}/bin/libraw.dll"
+    "${CMAKE_BINARY_DIR}/bin/libraw.dll"
     #"${AVUTIL_LIB}"
     #"${AVFORMAT_LIB}"
     #"${AVCODEC_LIB}"

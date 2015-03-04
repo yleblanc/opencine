@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core\Context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider\FFmpegDataProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider\LibRawDataProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider\RawSpeedDataProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage\StaticMemoryAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\FileBrowserView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MediaExplorerView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model\MediaExplorerModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\NewMainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PlaybackSlider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter\MediaExplorerPresenter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter\PlaybackPresenter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PreviewPane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline\SimpleProcessingPipeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\qrc_Resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\OpenCine_automoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_Console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_FileBrowserView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MainWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MediaExplorerView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_NewMainWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PlaybackSlider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PreviewPane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt" />
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Console.ui" />
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\FileBrowserView.ui" />
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MainWindow.ui" />
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MediaExplorerView.ui" />
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\NewMainWindow.ui" />
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PlaybackSlider.ui" />
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PreviewPane.ui" />
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{36D39F98-82BC-4EE2-B5F4-DE7674F1C9A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F6B3E0BA-9402-438E-A8D4-DFE34B084602}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

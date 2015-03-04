@@ -54,7 +54,9 @@ MainWindow::MainWindow(OCContext* context, QWidget *parent) :
     layout->addWidget(new PlaybackSlider(playbackPresenter)),
     ui->widget->setLayout(layout);
 
+#ifndef WIN32
     stdout = freopen("output_file", "w", stdout);
+#endif
 
     QFile f;
     f.open(stderr, QIODevice::ReadOnly);
