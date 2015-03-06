@@ -7,6 +7,7 @@
 MediaListItemDelegate::MediaListItemDelegate(QObject* parent) : QAbstractItemDelegate(parent)
 {
     this->view = view;
+    _sizeHint = new QSize(0,0);
 }
 
 MediaListItemDelegate::~MediaListItemDelegate()
@@ -21,12 +22,16 @@ void MediaListItemDelegate::paint(QPainter *painter, const QStyleOptionViewItem 
     QVariant data = index.model()->data(index,Qt::DisplayRole);
     MediaListItemWidget *listItem = new MediaListItemWidget((QWidget*)this->parent());
     listItem->getLabelTop()->setText(data.toString());
+    _sizeHint->setWidth(listItem->sizeHint().width());
+    _sizeHint->setHeight(listItem->sizeHint().height());
     QString fullPath = index.model()->data(index,pathRole).toString() + "/" + index.model()->data(index,Qt::DisplayRole).toString();
-    QImage thumbnail = index.model()->data(index,Qt::DecorationRole).value<QImage>();
-    listItem->getThumbnailView()->setPixmap(QPixmap::fromImage(thumbnail));
-    painter->translate(option.rect.topLeft());
-    listItem->resize( option.rect.size() );
-    listItem->render(painter,  QPoint(), QRegion(),QWidget::DrawChildren);
+    QImage* thumbnail = (QImage*)index.model()->data(index,Qt::DecorationRole).value<void*>();
+    if(thumbnail){
+        listItem->getThumbnailView()->setPixmap(QPixmap::fromImage(*thumbnail));
+        painter->translate(option.rect.topLeft());
+        listItem->resize( option.rect.size() );
+        listItem->render(painter,  QPoint(), QRegion(),QWidget::DrawChildren);
+    }
     delete listItem;
 
     painter->restore();
@@ -34,5 +39,5 @@ void MediaListItemDelegate::paint(QPainter *painter, const QStyleOptionViewItem 
 
 QSize MediaListItemDelegate::sizeHint(const QStyleOptionViewItem &option, const QModelIndex &index) const
 {
-    return QSize(100,75);
+    return *this->_sizeHint;
 }

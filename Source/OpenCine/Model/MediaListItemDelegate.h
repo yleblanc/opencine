@@ -20,6 +20,7 @@ public:
 
 private:
     QAbstractItemView *view;
+    QSize *_sizeHint;
 };
 
 #endif // MEDIALISTITEMDELEGATE_H

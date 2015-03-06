@@ -18,7 +18,7 @@ class MediaListFileSystemModel : public QAbstractListModel
     QString currentPath;
     QStringList fileList;
     QList<ImageSource*> imageSourceList;
-    QList<QImage> thumbnailList;
+    QList<QImage*> thumbnailList;
     QListView* listView;
     QSemaphore* thumbnailSemaphore;
 

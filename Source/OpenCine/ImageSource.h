@@ -5,12 +5,12 @@
 #include <QStringList>
 
 struct FileStruct{
-    QString path;
-    QString basename;
-    QString extension;
-    QString nameRoot;
     int padding;
     int fileNumber;
+    QString basename;
+    QString path;
+    QString extension;
+    QString nameRoot;
 };
 
 class ImageSource : public QObject
@@ -24,6 +24,7 @@ class ImageSource : public QObject
     };
 
     QString path;
+    QString _name;
     int numFrames;
     int firstFrameNum;
     ContainerType containerType;
@@ -40,6 +41,7 @@ public:
 
     QStringList getFileList(){return this->fileList;}
     QString getPath(){return this->path;}
+    QString getName();
 
 signals:
 

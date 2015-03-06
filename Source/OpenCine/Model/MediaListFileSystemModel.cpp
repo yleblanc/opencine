@@ -31,21 +31,30 @@ void MediaListFileSystemModel::scanCurrentPath()
     dir.setNameFilters(filters);
 
     dir.setFilter(QDir::NoDotAndDotDot | QDir::Files);
-
+    dir.setSorting(QDir::Name);
     QStringList curFileList = dir.entryList();
     int numFiles = curFileList.count();
 
-    this->insertRows(0,numFiles);
+
 
     while(curFileList.count()){
         ImageSource* newSource = new ImageSource(currentPath + "/" + curFileList.at(0));
-        this->imageSourceList.append(newSource);
+        this->insertRows(this->rowCount(),1);
+        this->setData(this->index(this->rowCount() - 1),qVariantFromValue((void *)newSource),Qt::DisplayRole);
+        QStringList includedFiles = newSource->getFileList();
+        for(int f = 0; f < includedFiles.count(); f++){
+            curFileList.removeOne(includedFiles.at(f));
+        }
     }
 
-    for(int f = 0; f < numFiles; f++){
+    //this->insertRows(0,this->imageSourceList.count());
 
-        this->setData(this->index(f),curFileList.at(f),Qt::DisplayRole);
-        this->loadThumbnail(currentPath + "/" + curFileList.at(f),f);
+    for(int f = 0; f < this->imageSourceList.count(); f++){
+
+//        this->setData(this->index(f),this->imageSourceList.at(f)->getName(),Qt::DisplayRole);
+        QStringList sourceFileList = this->imageSourceList.at(f)->getFileList();
+        QString firstFilename = currentPath + "/" + sourceFileList.at(0);
+        this->loadThumbnail(firstFilename, f);
     }
 
     return;
@@ -53,21 +62,17 @@ void MediaListFileSystemModel::scanCurrentPath()
 
 int MediaListFileSystemModel::rowCount(const QModelIndex &parent) const
 {
-    return fileList.count();
+    return this->imageSourceList.count();
 }
 
 QVariant MediaListFileSystemModel::data(const QModelIndex &index, int role) const
 {
-    //listView->setIndexWidget(index,new QPushButton());
     if ( role == Qt::DisplayRole ) {
-        //return QVariant();
-        return QVariant(fileList.at(index.row()));
+        return QVariant(this->imageSourceList.at(index.row())->getName());
     }else if ( role == pathRole ) {
-        //return QVariant();
         return QVariant(currentPath);
     }else if ( role == Qt::DecorationRole ) {
-        //return QVariant();
-        return QVariant(thumbnailList.at(index.row()));
+        return qVariantFromValue((void*)thumbnailList.at(index.row()));
     }
     return QVariant();
 }
@@ -84,7 +89,7 @@ bool MediaListFileSystemModel::insertRows(int position, int rows, const QModelIn
 
     for (int row = 0; row < rows; ++row) {
         fileList.insert(position, "");
-        thumbnailList.insert(position,QImage());
+        thumbnailList.insert(position,NULL);
         imageSourceList.insert(position,NULL);
     }
 
@@ -105,7 +110,7 @@ bool MediaListFileSystemModel::removeRows(int position, int rows, const QModelIn
     beginRemoveRows(QModelIndex(), position, position+rows-1);
 
     for (int row = 0; row < rows; ++row) {
-        fileList.removeAt(position);
+        imageSourceList.removeAt(position);
         //thumbnailList.at(row).detach();
         thumbnailList.removeAt(position);
     }
@@ -130,11 +135,11 @@ bool MediaListFileSystemModel::removeRows(int position, int rows, const QModelIn
 bool MediaListFileSystemModel::setData(const QModelIndex &index, const QVariant &value, int role)
 {
     if (index.isValid() && role == Qt::DisplayRole) {
-        fileList.replace(index.row(), value.toString());
+        imageSourceList.replace(index.row(), (ImageSource*)value.value<void*>());
         emit dataChanged(index, index);
         return true;
     }else if(index.isValid() && role == Qt::DecorationRole){
-        thumbnailList.replace(index.row(), value.value<QImage>());
+        thumbnailList.replace(index.row(), (QImage*)value.value<void*>());
         emit dataChanged(index, index);
         return true;
     }
@@ -165,5 +170,5 @@ void MediaListFileSystemModel::loadThumbnail(QString path, int index)
 
 void MediaListFileSystemModel::thumbnailReady(QImage* thumbnail, int index)
 {
-    this->setData(this->index(index),QVariant(*thumbnail),Qt::DecorationRole);
+    this->setData(this->index(index),qVariantFromValue((void*)thumbnail),Qt::DecorationRole);
 }
