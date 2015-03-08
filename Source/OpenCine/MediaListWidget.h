@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QAbstractItemModel>
 #include <QListView>
+#include "MediaListItemWidget.h"
 
 namespace Ui {
 class MediaListWidget;
@@ -17,11 +18,20 @@ public:
     explicit MediaListWidget(QWidget *parent = 0);
     ~MediaListWidget();
 
-    void setModel(QAbstractItemModel* model);
-    QListView* getListView();
+    void SetModel(QAbstractItemModel* model);
+    QWidget* GetListWidget();
+
+public slots:
+    void DataChanged(const QModelIndex& fromIndex,const QModelIndex& toIndex);
+    void RowsRemoved(const QModelIndex & parent, int first, int last);
+    void RowsInserted(const QModelIndex & parent, int first, int last);
+    void ItemClickedEvent(QWidget *widget, bool control, bool shift);
+    void SelectionChanged(const QItemSelection & selected, const QItemSelection & deselected);
 
 private:
-    Ui::MediaListWidget *ui;
+    Ui::MediaListWidget *_ui;
+    QAbstractItemModel *_dataModel;
+    QItemSelectionModel *_selectionModel;
 };
 
 #endif // MEDIALISTWIDGET_H

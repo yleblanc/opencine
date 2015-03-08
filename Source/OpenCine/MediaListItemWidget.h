@@ -4,6 +4,8 @@
 #include <QWidget>
 #include <QObject>
 #include <QLabel>
+#include <QMouseEvent>
+#include <QPainter>
 
 namespace Ui {
 class MediaListItemWidget;
@@ -17,13 +19,27 @@ public:
     explicit MediaListItemWidget(QWidget *parent = 0);
     ~MediaListItemWidget();
 
-    QLabel* getLabelTop();
-    QLabel* getLabelMiddle();
-    QLabel* getLabelBottom();
-    QLabel* getThumbnailView();
+    QLabel* GetLabelTop();
+    QLabel* GetLabelMiddle();
+    QLabel* GetLabelBottom();
+    QLabel* GetThumbnailView();
+    void SetHighlighted(bool highlight);
 
 private:
-    Ui::MediaListItemWidget *ui;
+    Ui::MediaListItemWidget *_ui;
+    QPoint _lastPoint;
+    bool _mouseClick;
+    bool _control;
+    bool _shift;
+
+protected:
+    void mouseReleaseEvent ( QMouseEvent * e );
+    void mousePressEvent ( QMouseEvent * e );
+    void paintEvent(QPaintEvent *event);
+
+signals:
+    void ItemClickedEvent(QWidget * widget, bool control, bool shift);
+
 };
 
 #endif // MEDIALISTITEMWIDGET_H

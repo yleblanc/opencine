@@ -3,34 +3,66 @@
 
 MediaListItemWidget::MediaListItemWidget(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::MediaListItemWidget)
+    _ui(new Ui::MediaListItemWidget)
 {
-    ui->setupUi(this);
-
+    _ui->setupUi(this);
+    this->SetHighlighted(false);
 }
 
 MediaListItemWidget::~MediaListItemWidget()
 {
-    delete ui;
+    delete _ui;
 }
 
-QLabel* MediaListItemWidget::getLabelTop()
+QLabel* MediaListItemWidget::GetLabelTop()
 {
-    return ui->labelTop;
+    return _ui->labelTop;
 }
 
-QLabel* MediaListItemWidget::getLabelMiddle()
+QLabel* MediaListItemWidget::GetLabelMiddle()
 {
-    return ui->labelCenter;
+    return _ui->labelCenter;
 }
 
-QLabel* MediaListItemWidget::getLabelBottom()
+QLabel* MediaListItemWidget::GetLabelBottom()
 {
-    return ui->labelBottom;
+    return _ui->labelBottom;
 }
 
-QLabel* MediaListItemWidget::getThumbnailView()
+QLabel* MediaListItemWidget::GetThumbnailView()
 {
-    return ui->thumbnailView;
+    return _ui->thumbnailView;
 }
 
+void MediaListItemWidget::mousePressEvent ( QMouseEvent * e )
+{
+    _lastPoint = e->pos();
+    _mouseClick = true;
+    _control = e->modifiers().testFlag(Qt::ControlModifier);
+    _shift = e->modifiers().testFlag(Qt::ShiftModifier);
+}
+
+void MediaListItemWidget::mouseReleaseEvent ( QMouseEvent * e )
+{
+    if ((_mouseClick) && (e->pos() == _lastPoint))
+    {
+        emit ItemClickedEvent((QWidget*)this, _control, _shift);
+    }
+}
+
+void MediaListItemWidget::SetHighlighted(bool highlight)
+{
+    if(highlight){
+        this->setStyleSheet("background: #5b5b5b");
+    }else{
+        this->setStyleSheet("background: #1e1e1e");
+    }
+}
+
+void MediaListItemWidget::paintEvent(QPaintEvent *event)
+{
+    QStyleOption opt;
+    opt.init(this);
+    QPainter p(this);
+    style()->drawPrimitive(QStyle::PE_Widget, &opt, &p, this);
+}

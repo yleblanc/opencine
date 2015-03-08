@@ -21,13 +21,13 @@ void MediaListItemDelegate::paint(QPainter *painter, const QStyleOptionViewItem 
 
     QVariant data = index.model()->data(index,Qt::DisplayRole);
     MediaListItemWidget *listItem = new MediaListItemWidget((QWidget*)this->parent());
-    listItem->getLabelTop()->setText(data.toString());
+    listItem->GetLabelTop()->setText(data.toString());
     _sizeHint->setWidth(listItem->sizeHint().width());
     _sizeHint->setHeight(listItem->sizeHint().height());
     QString fullPath = index.model()->data(index,pathRole).toString() + "/" + index.model()->data(index,Qt::DisplayRole).toString();
     QImage* thumbnail = (QImage*)index.model()->data(index,Qt::DecorationRole).value<void*>();
     if(thumbnail){
-        listItem->getThumbnailView()->setPixmap(QPixmap::fromImage(*thumbnail));
+        listItem->GetThumbnailView()->setPixmap(QPixmap::fromImage(*thumbnail));
         painter->translate(option.rect.topLeft());
         listItem->resize( option.rect.size() );
         listItem->render(painter,  QPoint(), QRegion(),QWidget::DrawChildren);

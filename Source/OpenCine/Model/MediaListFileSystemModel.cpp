@@ -7,7 +7,7 @@ MediaListFileSystemModel::MediaListFileSystemModel(QObject* parent)
 {
     thumbnailSemaphore = new QSemaphore(3);
     currentPath = "/";
-    listView = (QListView*)parent;
+    listWidget = (QWidget*)parent;
 }
 
 MediaListFileSystemModel::~MediaListFileSystemModel()
@@ -95,7 +95,6 @@ bool MediaListFileSystemModel::insertRows(int position, int rows, const QModelIn
 
     endInsertRows();
     return true;
-
 }
 
 
@@ -106,12 +105,10 @@ bool MediaListFileSystemModel::insertRows(int position, int rows, const QModelIn
 
 bool MediaListFileSystemModel::removeRows(int position, int rows, const QModelIndex &parent)
 {
-    if(fileList.count() == 0) return true;
     beginRemoveRows(QModelIndex(), position, position+rows-1);
 
     for (int row = 0; row < rows; ++row) {
         imageSourceList.removeAt(position);
-        //thumbnailList.at(row).detach();
         thumbnailList.removeAt(position);
     }
 

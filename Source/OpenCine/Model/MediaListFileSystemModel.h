@@ -19,7 +19,7 @@ class MediaListFileSystemModel : public QAbstractListModel
     QStringList fileList;
     QList<ImageSource*> imageSourceList;
     QList<QImage*> thumbnailList;
-    QListView* listView;
+    QWidget* listWidget;
     QSemaphore* thumbnailSemaphore;
 
     void loadThumbnail(QString path, int index);

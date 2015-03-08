@@ -29,8 +29,8 @@ NewMainWindow::NewMainWindow(OCContext* context, QWidget *parent) :
     connect(ui->dirTreeView->selectionModel(),SIGNAL(selectionChanged(QItemSelection,QItemSelection)),this,SLOT(fileTreeSelectionChanged(QItemSelection,QItemSelection)));
 
     browserMediaList = new MediaListWidget();
-    browserMediaListModel = new MediaListFileSystemModel(browserMediaList->getListView());
-    browserMediaList->setModel(browserMediaListModel);
+    browserMediaListModel = new MediaListFileSystemModel(browserMediaList->GetListWidget());
+    browserMediaList->SetModel(browserMediaListModel);
 
     connect(this, SIGNAL(pathChanged()),browserMediaListModel,SLOT(pathChanged()));
 

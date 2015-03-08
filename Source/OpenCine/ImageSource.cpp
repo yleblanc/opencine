@@ -58,7 +58,7 @@ void ImageSource::scanSequence(QString path)
         curFileNum++;
         curFilename = fileInfo.nameRoot + QString::number(curFileNum).rightJustified(fileInfo.padding,'0') + "." + fileInfo.extension;
     }
-    this->_name = fileInfo.nameRoot + "[" + QString().number(this->firstFrameNum) + "-" + QString().number(this->firstFrameNum + this->numFrames - 1) + "]." + fileInfo.extension;
+    this->_name = fileInfo.nameRoot + "[" + QString().number(this->firstFrameNum).rightJustified(fileInfo.padding,'0') + "-" + QString().number(this->firstFrameNum + this->numFrames - 1).rightJustified(fileInfo.padding,'0') + "]." + fileInfo.extension;
 }
 
 bool ImageSource::isNumerical(QString str)
