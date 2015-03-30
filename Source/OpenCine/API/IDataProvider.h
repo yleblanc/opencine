@@ -9,6 +9,7 @@
 
 #include "../Core/ImageData.h"
 #include "../API/IDataStorage.h"
+#include "../Helper/GenericFactory.h"
 
 enum class ClipType : unsigned int
 {
@@ -26,12 +27,20 @@ namespace OpenCineAPI
     IDataStorage* _dataStorage;
 
   public:
-    IDataProvider() {}
+    IDataProvider(std::string pluginName) : IPlugin(pluginName)
+    {
+    }
 
     virtual bool LoadFile(IDataStorage*, std::string) = 0;
     //virtual OCFrame* LoadFolder(std::string) = 0;
 
     virtual OCFrame* GetMetadataFromFile(std::string) = 0;
+
+    // IPlugin interface
+  public:
+    void Initialize()
+    {
+    }
   };
 
   /*class DataProviderFactory

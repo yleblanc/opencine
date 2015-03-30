@@ -82,8 +82,6 @@ public:
       QString tempPath = path + "/" + dir.entryList().at(fileIndex);
       dataProvider->LoadFile(dataStorage, tempPath.toStdString());
     }
-    //dataProvider->LoadFolder(path);
-
 
     emit SessionChanged(_session.get());
   }
