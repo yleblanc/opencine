@@ -1,0 +1,53 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{7FAA38D6-65F5-4F80-B77E-A13014E4E66C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3B0ED82C-4B4B-4FCC-9C72-27CC4A66BB01} = {3B0ED82C-4B4B-4FCC-9C72-27CC4A66BB01}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XMPCore", "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\vc12\dynamic\windows\XMPCore.vcxproj", "{D349941C-09D1-4A58-A2F2-9A481C2D891E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7B2F1552-F7EE-495D-9980-EA0DF2FD6C7B} = {7B2F1552-F7EE-495D-9980-EA0DF2FD6C7B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XMPFiles", "XMPFiles.vcxproj", "{3B0ED82C-4B4B-4FCC-9C72-27CC4A66BB01}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D349941C-09D1-4A58-A2F2-9A481C2D891E} = {D349941C-09D1-4A58-A2F2-9A481C2D891E}
+		{7B2F1552-F7EE-495D-9980-EA0DF2FD6C7B} = {7B2F1552-F7EE-495D-9980-EA0DF2FD6C7B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\dynamic\windows\ZERO_CHECK.vcxproj", "{7B2F1552-F7EE-495D-9980-EA0DF2FD6C7B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{C671815F-E6CD-446E-B0CD-5E1E22061CE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FAA38D6-65F5-4F80-B77E-A13014E4E66C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7FAA38D6-65F5-4F80-B77E-A13014E4E66C}.Release|Win32.ActiveCfg = Release|Win32
+		{D349941C-09D1-4A58-A2F2-9A481C2D891E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D349941C-09D1-4A58-A2F2-9A481C2D891E}.Debug|Win32.Build.0 = Debug|Win32
+		{D349941C-09D1-4A58-A2F2-9A481C2D891E}.Release|Win32.ActiveCfg = Release|Win32
+		{D349941C-09D1-4A58-A2F2-9A481C2D891E}.Release|Win32.Build.0 = Release|Win32
+		{3B0ED82C-4B4B-4FCC-9C72-27CC4A66BB01}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3B0ED82C-4B4B-4FCC-9C72-27CC4A66BB01}.Debug|Win32.Build.0 = Debug|Win32
+		{3B0ED82C-4B4B-4FCC-9C72-27CC4A66BB01}.Release|Win32.ActiveCfg = Release|Win32
+		{3B0ED82C-4B4B-4FCC-9C72-27CC4A66BB01}.Release|Win32.Build.0 = Release|Win32
+		{7B2F1552-F7EE-495D-9980-EA0DF2FD6C7B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7B2F1552-F7EE-495D-9980-EA0DF2FD6C7B}.Debug|Win32.Build.0 = Debug|Win32
+		{7B2F1552-F7EE-495D-9980-EA0DF2FD6C7B}.Release|Win32.ActiveCfg = Release|Win32
+		{7B2F1552-F7EE-495D-9980-EA0DF2FD6C7B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B2F1552-F7EE-495D-9980-EA0DF2FD6C7B} = {C671815F-E6CD-446E-B0CD-5E1E22061CE3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -21,7 +21,7 @@ public:
     void run();
 
 signals:
-    thumbnailReady(QImage* thumbnail, int index);
+    void thumbnailReady(QImage* thumbnail, int index);
 
 };
 

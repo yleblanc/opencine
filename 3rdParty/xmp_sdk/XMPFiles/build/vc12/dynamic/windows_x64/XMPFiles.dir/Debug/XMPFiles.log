@@ -1,0 +1,122 @@
+﻿Build started 3/8/2015 11:40:39 PM.
+     1>Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\vc12\dynamic\windows_x64\XMPFiles.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\.. /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\..\public\include /I"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\..\third-party\expat\zlib" /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\..\XMPFilesPlugins\api\source /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\resource\win /Zi /nologo /W3 /WX- /MP /Od /D WIN_ENV=1 /D _CRT_SECURE_NO_WARNINGS=1 /D _SCL_SECURE_NO_WARNINGS=1 /D WIN64 /D _WIN64=1 /D NOMINMAX /D UNICODE /D _UNICODE /D DEBUG /D _ITERATOR_DEBUG_LEVEL=2 /D XML_STATIC=1 /D HAVE_EXPAT_CONFIG_H=1 /D XMP_DynamicBuild=1 /D BUILDING_XMPCOMMON_LIB=1 /D "CMAKE_INTDIR=\"Debug\"" /D XMPFiles_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"XMPFiles.dir\Debug\\" /Fd"XMPFiles.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt  /J /bigobj C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\JPEG_Handler.cpp
+         JPEG_Handler.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\JPEG_Handler.cpp(342): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\JPEG_Handler.cpp(363): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\JPEG_Handler.cpp(375): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\JPEG_Handler.cpp(519): warning C4267: '=' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\.. /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\..\public\include /I"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\..\third-party\expat\zlib" /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\..\XMPFilesPlugins\api\source /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\resource\win /Zi /nologo /W3 /WX- /MP /Od /D WIN_ENV=1 /D _CRT_SECURE_NO_WARNINGS=1 /D _SCL_SECURE_NO_WARNINGS=1 /D WIN64 /D _WIN64=1 /D NOMINMAX /D UNICODE /D _UNICODE /D DEBUG /D _ITERATOR_DEBUG_LEVEL=2 /D XML_STATIC=1 /D HAVE_EXPAT_CONFIG_H=1 /D XMP_DynamicBuild=1 /D BUILDING_XMPCOMMON_LIB=1 /D "CMAKE_INTDIR=\"Debug\"" /D XMPFiles_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"XMPFiles.dir\Debug\/C_/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/XMPFiles/source/XMPFiles.cpp.obj" /Fd"XMPFiles.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt  /J /bigobj C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\XMPFiles.cpp
+         XMPFiles.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN_ENV=1 /D _CRT_SECURE_NO_WARNINGS=1 /D _SCL_SECURE_NO_WARNINGS=1 /D WIN64 /D _WIN64=1 /D NOMINMAX /D UNICODE /D _UNICODE /D DEBUG /D _ITERATOR_DEBUG_LEVEL=2 /D XML_STATIC=1 /D HAVE_EXPAT_CONFIG_H=1 /D XMP_DynamicBuild=1 /D BUILDING_XMPCOMMON_LIB=1 /D "CMAKE_INTDIR=\\\"Debug\\\"" /D XMPFiles_EXPORTS /D _UNICODE /D UNICODE /l"0x0409" /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\.. /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\..\public\include /I"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\..\third-party\expat\zlib" /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\..\XMPFilesPlugins\api\source /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\resource\win /nologo /fo"XMPFiles.dir\Debug\XMPFiles.res" C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\resource\win\XMPFiles.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\libraries\windows_x64\Debug\XMPFiles.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/XMPFiles/build/../../public/libraries/windows_x64/Debug /LIBPATH:C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/XMPFiles/build/../../public/libraries/windows_x64/Debug/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\libraries\windows_x64\Debug\XMPCore.lib /DEF:"C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/XMPFiles/resource/win/XMPFiles.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/public/libraries/windows_x64/Debug/XMPFiles.pdb" /MAP /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/public/libraries/windows_x64/Debug/XMPFiles.lib" /MACHINE:X64  /machine:x64 /debug /DLL XMPFiles.dir\Debug\XMPFiles.res
+         XMPFiles.dir\Debug\adler32.obj
+         XMPFiles.dir\Debug\compress.obj
+         XMPFiles.dir\Debug\crc32.obj
+         XMPFiles.dir\Debug\deflate.obj
+         XMPFiles.dir\Debug\infback.obj
+         XMPFiles.dir\Debug\inffast.obj
+         XMPFiles.dir\Debug\inflate.obj
+         XMPFiles.dir\Debug\inftrees.obj
+         XMPFiles.dir\Debug\trees.obj
+         XMPFiles.dir\Debug\uncompr.obj
+         XMPFiles.dir\Debug\zutil.obj
+         XMPFiles.dir\Debug\IMetadata.obj
+         XMPFiles.dir\Debug\IReconcile.obj
+         XMPFiles.dir\Debug\MetadataSet.obj
+         XMPFiles.dir\Debug\MD5.obj
+         XMPFiles.dir\Debug\UnicodeConversions.obj
+         XMPFiles.dir\Debug\HandlerRegistry.obj
+         XMPFiles.dir\Debug\SafeStringAPIs.obj
+         XMPFiles.dir\Debug\PerfUtils.obj
+         XMPFiles.dir\Debug\WXMPFiles.obj
+         XMPFiles.dir\Debug\XIO.obj
+         XMPFiles.dir\Debug\IOUtils.obj
+         XMPFiles.dir\Debug\XML_Node.obj
+         XMPFiles.dir\Debug\XMP_LibUtils.obj
+         XMPFiles.dir\Debug\XMP_ProgressTracker.obj
+         XMPFiles.dir\Debug\XMPFiles_Impl.obj
+         XMPFiles.dir\Debug\XMPFiles_IO.obj
+         "XMPFiles.dir\Debug\Host_IO-Win.obj"
+         XMPFiles.dir\Debug\AIFF_Handler.obj
+         XMPFiles.dir\Debug\ASF_Handler.obj
+         XMPFiles.dir\Debug\AVCHD_Handler.obj
+         XMPFiles.dir\Debug\Basic_Handler.obj
+         XMPFiles.dir\Debug\FLV_Handler.obj
+         XMPFiles.dir\Debug\InDesign_Handler.obj
+         XMPFiles.dir\Debug\JPEG_Handler.obj
+         XMPFiles.dir\Debug\MP3_Handler.obj
+         XMPFiles.dir\Debug\MPEG2_Handler.obj
+         XMPFiles.dir\Debug\MPEG4_Handler.obj
+         XMPFiles.dir\Debug\P2_Handler.obj
+         XMPFiles.dir\Debug\PNG_Handler.obj
+         XMPFiles.dir\Debug\PostScript_Handler.obj
+         XMPFiles.dir\Debug\PSD_Handler.obj
+         XMPFiles.dir\Debug\RIFF_Handler.obj
+         XMPFiles.dir\Debug\Scanner_Handler.obj
+         XMPFiles.dir\Debug\SonyHDV_Handler.obj
+         XMPFiles.dir\Debug\SWF_Handler.obj
+         XMPFiles.dir\Debug\TIFF_Handler.obj
+         XMPFiles.dir\Debug\Trivial_Handler.obj
+         XMPFiles.dir\Debug\UCF_Handler.obj
+         XMPFiles.dir\Debug\WAVE_Handler.obj
+         XMPFiles.dir\Debug\XDCAMEX_Handler.obj
+         XMPFiles.dir\Debug\XDCAM_Handler.obj
+         XMPFiles.dir\Debug\AIFFBehavior.obj
+         XMPFiles.dir\Debug\AIFFMetadata.obj
+         XMPFiles.dir\Debug\AIFFReconcile.obj
+         XMPFiles.dir\Debug\Chunk.obj
+         XMPFiles.dir\Debug\ChunkController.obj
+         XMPFiles.dir\Debug\ChunkPath.obj
+         XMPFiles.dir\Debug\IChunkBehavior.obj
+         XMPFiles.dir\Debug\BEXTMetadata.obj
+         XMPFiles.dir\Debug\CartMetadata.obj
+         XMPFiles.dir\Debug\Cr8rMetadata.obj
+         XMPFiles.dir\Debug\DISPMetadata.obj
+         XMPFiles.dir\Debug\INFOMetadata.obj
+         XMPFiles.dir\Debug\iXMLMetadata.obj
+         XMPFiles.dir\Debug\PrmLMetadata.obj
+         XMPFiles.dir\Debug\WAVEBehavior.obj
+         XMPFiles.dir\Debug\WAVEReconcile.obj
+         XMPFiles.dir\Debug\ASF_Support.obj
+         XMPFiles.dir\Debug\ID3_Support.obj
+         XMPFiles.dir\Debug\IPTC_Support.obj
+         XMPFiles.dir\Debug\ISOBaseMedia_Support.obj
+         XMPFiles.dir\Debug\MOOV_Support.obj
+         XMPFiles.dir\Debug\P2_Support.obj
+         XMPFiles.dir\Debug\PackageFormat_Support.obj
+         XMPFiles.dir\Debug\PNG_Support.obj
+         XMPFiles.dir\Debug\PostScript_Support.obj
+         XMPFiles.dir\Debug\PSIR_FileWriter.obj
+         XMPFiles.dir\Debug\PSIR_MemoryReader.obj
+         XMPFiles.dir\Debug\QuickTime_Support.obj
+         XMPFiles.dir\Debug\ReconcileIPTC.obj
+         XMPFiles.dir\Debug\ReconcileLegacy.obj
+         XMPFiles.dir\Debug\ReconcileTIFF.obj
+         XMPFiles.dir\Debug\Reconcile_Impl.obj
+         XMPFiles.dir\Debug\RIFF.obj
+         XMPFiles.dir\Debug\RIFF_Support.obj
+         XMPFiles.dir\Debug\SWF_Support.obj
+         XMPFiles.dir\Debug\TIFF_FileWriter.obj
+         XMPFiles.dir\Debug\TIFF_MemoryReader.obj
+         XMPFiles.dir\Debug\TIFF_Support.obj
+         XMPFiles.dir\Debug\TimeConversionUtils.obj
+         XMPFiles.dir\Debug\XDCAM_Support.obj
+         XMPFiles.dir\Debug\XMPScanner.obj
+         XMPFiles.dir\Debug\FileHandlerInstance.obj
+         XMPFiles.dir\Debug\HostAPIImpl.obj
+         XMPFiles.dir\Debug\Module.obj
+         XMPFiles.dir\Debug\PluginManager.obj
+         XMPFiles.dir\Debug\XMPAtoms.obj
+         XMPFiles.dir\Debug\OS_Utils_WIN.obj
+         XMPFiles.dir\Debug\/C_/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/XMPFiles/source/XMPFiles.cpp.obj
+            Creating library C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/public/libraries/windows_x64/Debug/XMPFiles.lib and object C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/public/libraries/windows_x64/Debug/XMPFiles.exp
+         XMPFiles.vcxproj -> C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\libraries\windows_x64\Debug\XMPFiles.dll
+     1>Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\vc12\dynamic\windows_x64\XMPFiles.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.91

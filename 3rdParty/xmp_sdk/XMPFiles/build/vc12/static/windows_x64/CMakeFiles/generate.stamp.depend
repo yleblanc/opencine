@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/XMPFiles/build/CMakeLists.txt
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/XMP_Config.cmake
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/XMP_ConfigCommon.cmake
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/ProductConfig.cmake
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/shared/SharedConfig.cmake
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/shared/SharedConfig_Common.cmake
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/shared/SharedConfig_Win.cmake
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/XMPFiles/build/CMakeListsCommon.txt

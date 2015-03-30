@@ -1,0 +1,12 @@
+﻿Build started 3/9/2015 12:14:11 AM.
+     1>Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows_x64\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows_x64/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/XMPCore/build/vc12/static/windows_x64/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/XMPFiles/build/vc12/static/windows_x64/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows_x64\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20

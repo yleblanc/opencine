@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\e0382a132c4e3a8e8fecf51441cca8f1\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C95FCB00-59D5-4DE1-B64A-8B1982634EE0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

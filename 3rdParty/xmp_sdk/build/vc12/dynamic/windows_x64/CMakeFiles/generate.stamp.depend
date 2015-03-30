@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/CMakeLists.txt
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/dynamic/windows_x64/CMakeFiles/3.2.0-rc2/CMakeSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeSystemSpecificInitialize.cmake
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/dynamic/windows_x64/CMakeFiles/3.2.0-rc2/CMakeCCompiler.cmake
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/dynamic/windows_x64/CMakeFiles/3.2.0-rc2/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/Windows-MSVC.cmake
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/dynamic/windows_x64/CMakeFiles/3.2.0-rc2/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeCommonLanguageInclude.cmake
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/XMP_Config.cmake
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/XMP_ConfigCommon.cmake
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/ProductConfig.cmake
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/shared/SharedConfig.cmake
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/shared/SharedConfig_Common.cmake
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/shared/SharedConfig_Win.cmake

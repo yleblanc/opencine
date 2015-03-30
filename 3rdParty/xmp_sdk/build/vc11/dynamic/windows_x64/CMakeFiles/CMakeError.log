@@ -1,0 +1,340 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/8/2015 11:16:39 PM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj]
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:02.89
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/8/2015 11:16:42 PM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj]
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.21
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/8/2015 11:17:37 PM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj]
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:02.29
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/8/2015 11:17:39 PM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj]
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.19
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/8/2015 11:18:20 PM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj]
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:03.91
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/8/2015 11:18:24 PM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj]
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.17
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/8/2015 11:20:46 PM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj]
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:04.85
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/8/2015 11:20:51 PM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj]
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.15
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/8/2015 11:25:41 PM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj]
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:04.71
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 4.0.30319.34209
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/8/2015 11:25:45 PM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj]
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(347,5): error MSB6006: "CL.exe" exited with code -1073741515. [C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc11\dynamic\windows_x64\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:01.28
+
+

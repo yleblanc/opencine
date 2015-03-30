@@ -1,0 +1,58 @@
+﻿Build started 3/9/2015 12:14:11 AM.
+     1>Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\vc12\static\windows_x64\XMPCoreStatic.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/XMPCore/build/CMakeLists.txt
+         CMake does not need to re-run because C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\vc12\static\windows_x64\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\..\.. /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\..\..\public\include /I"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\..\..\third-party\expat\public\lib" /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\..\resource\win /Zi /nologo /W3 /WX- /MP /Od /D WIN_ENV=1 /D _CRT_SECURE_NO_WARNINGS=1 /D _SCL_SECURE_NO_WARNINGS=1 /D WIN64 /D _WIN64=1 /D NOMINMAX /D UNICODE /D _UNICODE /D DEBUG /D _ITERATOR_DEBUG_LEVEL=2 /D XML_STATIC=1 /D HAVE_EXPAT_CONFIG_H=1 /D XMP_StaticBuild=1 /D BUILDING_XMPCOMMON_LIB=1 /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /GF /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"XMPCoreStatic.dir\Debug\\" /Fd"XMPCoreStatic.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt  /J /bigobj C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\WXMPIterator.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\WXMPMeta.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\WXMPUtils.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPIterator.cpp "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPMeta-GetSet.cpp" "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPMeta-Parse.cpp" "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPMeta-Serialize.cpp" C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPMeta.cpp "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPUtils-FileInfo.cpp" C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPUtils.cpp "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zuid\interfaces\MD5.cpp" C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\ExpatAdapter.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\ParseRDF.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPCore_Impl.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\UnicodeConversions.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XML_Node.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XMP_LibUtils.cpp
+         WXMPIterator.cpp
+         WXMPMeta.cpp
+         WXMPUtils.cpp
+         XMPIterator.cpp
+         XMPMeta-GetSet.cpp
+         XMPMeta-Parse.cpp
+         XMPMeta-Serialize.cpp
+         XMPMeta.cpp
+         XMPUtils-FileInfo.cpp
+         XMPUtils.cpp
+         MD5.cpp
+         ExpatAdapter.cpp
+         ParseRDF.cpp
+         XMPCore_Impl.cpp
+         UnicodeConversions.cpp
+         XML_Node.cpp
+         XMP_LibUtils.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\..\.. /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\..\..\public\include /I"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\..\..\third-party\expat\public\lib" /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\..\resource\win /Zi /nologo /W3 /WX- /MP /Od /D WIN_ENV=1 /D _CRT_SECURE_NO_WARNINGS=1 /D _SCL_SECURE_NO_WARNINGS=1 /D WIN64 /D _WIN64=1 /D NOMINMAX /D UNICODE /D _UNICODE /D DEBUG /D _ITERATOR_DEBUG_LEVEL=2 /D XML_STATIC=1 /D HAVE_EXPAT_CONFIG_H=1 /D XMP_StaticBuild=1 /D BUILDING_XMPCOMMON_LIB=1 /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /GF /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"XMPCoreStatic.dir\Debug\\" /Fd"XMPCoreStatic.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt  /J /bigobj "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\expat\lib\xmlparse.c" "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\expat\lib\xmlrole.c" "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\expat\lib\xmltok.c"
+         xmlparse.c
+         xmlrole.c
+         xmltok.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN_ENV=1 /D _CRT_SECURE_NO_WARNINGS=1 /D _SCL_SECURE_NO_WARNINGS=1 /D WIN64 /D _WIN64=1 /D NOMINMAX /D UNICODE /D _UNICODE /D DEBUG /D _ITERATOR_DEBUG_LEVEL=2 /D XML_STATIC=1 /D HAVE_EXPAT_CONFIG_H=1 /D XMP_StaticBuild=1 /D BUILDING_XMPCOMMON_LIB=1 /D "CMAKE_INTDIR=\\\"Debug\\\"" /D _UNICODE /D UNICODE /l"0x0409" /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\..\.. /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\..\..\public\include /I"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\..\..\third-party\expat\public\lib" /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\..\resource\win /nologo /fo"XMPCoreStatic.dir\Debug\XMPCore.res" C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\resource\win\XMPCore.rc 
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\libraries\windows_x64\Debug\XMPCoreStatic.lib" /NOLOGO /MACHINE:X64  /machine:x64 XMPCoreStatic.dir\Debug\XMPCore.res
+         XMPCoreStatic.dir\Debug\WXMPIterator.obj
+         XMPCoreStatic.dir\Debug\WXMPMeta.obj
+         XMPCoreStatic.dir\Debug\WXMPUtils.obj
+         XMPCoreStatic.dir\Debug\XMPIterator.obj
+         "XMPCoreStatic.dir\Debug\XMPMeta-GetSet.obj"
+         "XMPCoreStatic.dir\Debug\XMPMeta-Parse.obj"
+         "XMPCoreStatic.dir\Debug\XMPMeta-Serialize.obj"
+         XMPCoreStatic.dir\Debug\XMPMeta.obj
+         "XMPCoreStatic.dir\Debug\XMPUtils-FileInfo.obj"
+         XMPCoreStatic.dir\Debug\XMPUtils.obj
+         XMPCoreStatic.dir\Debug\MD5.obj
+         XMPCoreStatic.dir\Debug\xmlparse.obj
+         XMPCoreStatic.dir\Debug\xmlrole.obj
+         XMPCoreStatic.dir\Debug\xmltok.obj
+         XMPCoreStatic.dir\Debug\ExpatAdapter.obj
+         XMPCoreStatic.dir\Debug\ParseRDF.obj
+         XMPCoreStatic.dir\Debug\XMPCore_Impl.obj
+         XMPCoreStatic.dir\Debug\UnicodeConversions.obj
+         XMPCoreStatic.dir\Debug\XML_Node.obj
+         XMPCoreStatic.dir\Debug\XMP_LibUtils.obj
+         XMPCoreStatic.vcxproj -> C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\libraries\windows_x64\Debug\XMPCoreStatic.lib
+     1>Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\vc12\static\windows_x64\XMPCoreStatic.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.99

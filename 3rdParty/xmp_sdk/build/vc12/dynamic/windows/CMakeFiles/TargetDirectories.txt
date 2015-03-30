@@ -1,0 +1,4 @@
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/XMPCore/build/vc12/dynamic/windows/CMakeFiles/XMPCore.dir
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/dynamic/windows/CMakeFiles/ALL_BUILD.dir
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/dynamic/windows/CMakeFiles/ZERO_CHECK.dir
+C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/XMPFiles/build/vc12/dynamic/windows/CMakeFiles/XMPFiles.dir

@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\adler32.c">
+      <Filter>Source Files\ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\compress.c">
+      <Filter>Source Files\ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\crc32.c">
+      <Filter>Source Files\ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\deflate.c">
+      <Filter>Source Files\ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\infback.c">
+      <Filter>Source Files\ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\inffast.c">
+      <Filter>Source Files\ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\inflate.c">
+      <Filter>Source Files\ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\inftrees.c">
+      <Filter>Source Files\ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\trees.c">
+      <Filter>Source Files\ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\uncompr.c">
+      <Filter>Source Files\ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\zutil.c">
+      <Filter>Source Files\ThirdParty\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\NativeMetadataSupport\IMetadata.cpp">
+      <Filter>Source Files\Common Code\NativeMetadataSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\NativeMetadataSupport\IReconcile.cpp">
+      <Filter>Source Files\Common Code\NativeMetadataSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\NativeMetadataSupport\MetadataSet.cpp">
+      <Filter>Source Files\Common Code\NativeMetadataSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zuid\interfaces\MD5.cpp">
+      <Filter>Source Files\Common Code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\UnicodeConversions.cpp">
+      <Filter>Source Files\Common Code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\HandlerRegistry.cpp">
+      <Filter>Source Files\Common Code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\SafeStringAPIs.cpp">
+      <Filter>Source Files\Common Code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\PerfUtils.cpp">
+      <Filter>Source Files\Common Code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\WXMPFiles.cpp">
+      <Filter>Source Files\Common Code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XIO.cpp">
+      <Filter>Source Files\Common Code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\IOUtils.cpp">
+      <Filter>Source Files\Common Code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XML_Node.cpp">
+      <Filter>Source Files\Common Code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XMP_LibUtils.cpp">
+      <Filter>Source Files\Common Code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XMP_ProgressTracker.cpp">
+      <Filter>Source Files\Common Code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\XMPFiles.cpp">
+      <Filter>Source Files\Common Code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\XMPFiles_Impl.cpp">
+      <Filter>Source Files\Common Code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XMPFiles_IO.cpp">
+      <Filter>Source Files\Common Code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\Host_IO-Win.cpp">
+      <Filter>Source Files\Common Code</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\AIFF_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\ASF_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\AVCHD_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\Basic_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\FLV_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\InDesign_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\JPEG_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\MP3_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\MPEG2_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\MPEG4_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\P2_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PNG_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PSD_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\RIFF_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\Scanner_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\SonyHDV_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\SWF_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\TIFF_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\Trivial_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\UCF_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\WAVE_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\XDCAMEX_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\XDCAM_Handler.cpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\AIFF\AIFFBehavior.cpp">
+      <Filter>Source Files\Format Support\AIFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\AIFF\AIFFMetadata.cpp">
+      <Filter>Source Files\Format Support\AIFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\AIFF\AIFFReconcile.cpp">
+      <Filter>Source Files\Format Support\AIFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IFF\Chunk.cpp">
+      <Filter>Source Files\Format Support\IFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IFF\ChunkController.cpp">
+      <Filter>Source Files\Format Support\IFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IFF\ChunkPath.cpp">
+      <Filter>Source Files\Format Support\IFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IFF\IChunkBehavior.cpp">
+      <Filter>Source Files\Format Support\IFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\BEXTMetadata.cpp">
+      <Filter>Source Files\Format Support\WAVE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\CartMetadata.cpp">
+      <Filter>Source Files\Format Support\WAVE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\Cr8rMetadata.cpp">
+      <Filter>Source Files\Format Support\WAVE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\DISPMetadata.cpp">
+      <Filter>Source Files\Format Support\WAVE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\INFOMetadata.cpp">
+      <Filter>Source Files\Format Support\WAVE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\iXMLMetadata.cpp">
+      <Filter>Source Files\Format Support\WAVE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\PrmLMetadata.cpp">
+      <Filter>Source Files\Format Support\WAVE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\WAVEBehavior.cpp">
+      <Filter>Source Files\Format Support\WAVE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\WAVEReconcile.cpp">
+      <Filter>Source Files\Format Support\WAVE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ASF_Support.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ID3_Support.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IPTC_Support.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ISOBaseMedia_Support.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\MOOV_Support.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\P2_Support.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\PackageFormat_Support.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\PNG_Support.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\PostScript_Support.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\PSIR_FileWriter.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\PSIR_MemoryReader.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\QuickTime_Support.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ReconcileIPTC.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ReconcileLegacy.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ReconcileTIFF.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\Reconcile_Impl.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\RIFF.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\RIFF_Support.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\SWF_Support.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\TIFF_FileWriter.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\TIFF_MemoryReader.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\TIFF_Support.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\TimeConversionUtils.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\XDCAM_Support.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\XMPScanner.cpp">
+      <Filter>Source Files\Format Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\FileHandlerInstance.cpp">
+      <Filter>Source Files\PluginHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\HostAPIImpl.cpp">
+      <Filter>Source Files\PluginHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\Module.cpp">
+      <Filter>Source Files\PluginHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\PluginManager.cpp">
+      <Filter>Source Files\PluginHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\XMPAtoms.cpp">
+      <Filter>Source Files\PluginHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\OS_Utils_WIN.cpp">
+      <Filter>Source Files\PluginHandler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\Endian.h">
+      <Filter>Header Files\Internal Headers\Common Code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\SafeStringAPIs.h">
+      <Filter>Header Files\Internal Headers\Common Code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\SafeTypes.h">
+      <Filter>Header Files\Internal Headers\Common Code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\SuppressSAL.h">
+      <Filter>Header Files\Internal Headers\Common Code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\XMP_BuildInfo.h">
+      <Filter>Header Files\Internal Headers\Common Code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\XMPFiles.hpp">
+      <Filter>Header Files\Internal Headers\Common Code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\XMPFiles_Impl.hpp">
+      <Filter>Header Files\Internal Headers\Common Code</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\ASF_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\AVCHD_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\Basic_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\FLV_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\InDesign_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\JPEG_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\MP3_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\MPEG2_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\MPEG4_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\P2_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PNG_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PSD_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\RIFF_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\Scanner_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\SonyHDV_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\SWF_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\TIFF_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\Trivial_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\UCF_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\WAVE_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\XDCAMEX_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\XDCAM_Handler.hpp">
+      <Filter>Header Files\Internal Headers\File Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\AIFF\AIFFBehavior.h">
+      <Filter>Header Files\Internal Headers\Format Support\AIFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\AIFF\AIFFMetadata.h">
+      <Filter>Header Files\Internal Headers\Format Support\AIFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\AIFF\AIFFReconcile.h">
+      <Filter>Header Files\Internal Headers\Format Support\AIFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IFF\Chunk.h">
+      <Filter>Header Files\Internal Headers\Format Support\IFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IFF\ChunkController.h">
+      <Filter>Header Files\Internal Headers\Format Support\IFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IFF\ChunkPath.h">
+      <Filter>Header Files\Internal Headers\Format Support\IFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IFF\IChunkBehavior.h">
+      <Filter>Header Files\Internal Headers\Format Support\IFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IFF\IChunkContainer.h">
+      <Filter>Header Files\Internal Headers\Format Support\IFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IFF\IChunkData.h">
+      <Filter>Header Files\Internal Headers\Format Support\IFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\BEXTMetadata.h">
+      <Filter>Header Files\Internal Headers\Format Support\WAVE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\CartMetadata.h">
+      <Filter>Header Files\Internal Headers\Format Support\WAVE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\Cr8rMetadata.h">
+      <Filter>Header Files\Internal Headers\Format Support\WAVE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\DISPMetadata.h">
+      <Filter>Header Files\Internal Headers\Format Support\WAVE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\INFOMetadata.h">
+      <Filter>Header Files\Internal Headers\Format Support\WAVE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\iXMLMetadata.h">
+      <Filter>Header Files\Internal Headers\Format Support\WAVE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\PrmLMetadata.h">
+      <Filter>Header Files\Internal Headers\Format Support\WAVE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\WAVEBehavior.h">
+      <Filter>Header Files\Internal Headers\Format Support\WAVE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\WAVEReconcile.h">
+      <Filter>Header Files\Internal Headers\Format Support\WAVE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ASF_Support.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ID3_Support.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IPTC_Support.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ISOBaseMedia_Support.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\MOOV_Support.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\P2_Support.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\PackageFormat_Support.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\PNG_Support.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\PostScript_Support.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\PSIR_Support.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\QuickTime_Support.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ReconcileLegacy.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\Reconcile_Impl.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\RIFF.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\RIFF_Support.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\SWF_Support.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\TIFF_Support.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\TimeConversionUtils.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\XDCAM_Support.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\XMPScanner.hpp">
+      <Filter>Header Files\Internal Headers\Format Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\FileHandler.h">
+      <Filter>Header Files\Internal Headers\PluginHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\FileHandlerInstance.h">
+      <Filter>Header Files\Internal Headers\PluginHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\Module.h">
+      <Filter>Header Files\Internal Headers\PluginHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\ModuleUtils.h">
+      <Filter>Header Files\Internal Headers\PluginHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\PluginManager.h">
+      <Filter>Header Files\Internal Headers\PluginHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\XMPAtoms.h">
+      <Filter>Header Files\Internal Headers\PluginHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\client-glue\WXMP_Common.hpp">
+      <Filter>Header Files\Public Headers\Client Glue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\client-glue\WXMPFiles.hpp">
+      <Filter>Header Files\Public Headers\Client Glue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\TXMPFiles.hpp">
+      <Filter>Header Files\Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\TXMPIterator.hpp">
+      <Filter>Header Files\Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\TXMPMeta.hpp">
+      <Filter>Header Files\Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\TXMPUtils.hpp">
+      <Filter>Header Files\Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\XMP.hpp">
+      <Filter>Header Files\Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\XMP_Const.h">
+      <Filter>Header Files\Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\XMP_Environment.h">
+      <Filter>Header Files\Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\XMP_IO.hpp">
+      <Filter>Header Files\Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\XMP_Version.h">
+      <Filter>Header Files\Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\crc32.h">
+      <Filter>Header Files\ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\deflate.h">
+      <Filter>Header Files\ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\gzguts.h">
+      <Filter>Header Files\ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\inffast.h">
+      <Filter>Header Files\ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\inffixed.h">
+      <Filter>Header Files\ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\inflate.h">
+      <Filter>Header Files\ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\inftrees.h">
+      <Filter>Header Files\ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\trees.h">
+      <Filter>Header Files\ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\zconf.h">
+      <Filter>Header Files\ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\zlib.h">
+      <Filter>Header Files\ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\zutil.h">
+      <Filter>Header Files\ThirdParty\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\Host_IO.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XIO.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\IOUtils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XMPFiles_IO.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\AIFF_Handler.hpp">
+      <Filter>Source Files\File Handlers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\client-glue\TXMPFiles.incl_cpp">
+      <Filter>Header Files\Public Headers\Client Glue</Filter>
+    </None>
+    <None Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\XMP.incl_cpp">
+      <Filter>Header Files\Public Headers</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\resource\win\XMPFiles.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\Public Headers\Client Glue">
+      <UniqueIdentifier>{D6E4117F-D069-4FAB-AD3B-D1B8E62FA702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ThirdParty\zlib">
+      <UniqueIdentifier>{B8A9B4E9-53E2-4EDC-9942-070581E60844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ThirdParty\zlib">
+      <UniqueIdentifier>{29AB6CEB-9614-44F9-B53C-27AF407D89AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common Code\NativeMetadataSupport">
+      <UniqueIdentifier>{4ECE94F6-BD53-4096-B10F-68AB1866ABD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Internal Headers\Common Code">
+      <UniqueIdentifier>{ECB6BAEA-05EA-4F44-91D8-E51C5C81B5F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Internal Headers\File Handlers">
+      <UniqueIdentifier>{36F934B0-0F9D-467C-ABCE-15D5401A2808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Internal Headers\Format Support">
+      <UniqueIdentifier>{F7E27EE0-9C2A-4550-85B8-097C4AA35498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Internal Headers\PluginHandler">
+      <UniqueIdentifier>{C158752E-021B-465C-8D59-887E6A3282F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Internal Headers\Format Support\AIFF">
+      <UniqueIdentifier>{43B2DA33-0347-4073-9256-53F96EBCFFE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Internal Headers\Format Support\IFF">
+      <UniqueIdentifier>{0A72C151-28EA-4EC3-BDF1-CF28EC3B2A1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Internal Headers\Format Support\WAVE">
+      <UniqueIdentifier>{664FB18F-51A2-4C17-B123-3A9CEC5150B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3942DCDA-ECEE-482C-9594-7A5F8F5CAA92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DE8B56ED-C4D2-4399-AAA7-F74135AEDBC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{0D5AA668-D960-4E1A-8A3C-5D6843EDEF8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Format Support\AIFF">
+      <UniqueIdentifier>{EA5E0B2D-D7DD-4512-AB06-0F53239B8BFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Format Support\IFF">
+      <UniqueIdentifier>{C570BACE-14A0-4EF9-96E4-2A4AAEB399DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Format Support\WAVE">
+      <UniqueIdentifier>{B0B23D72-EFB0-4B2C-93E8-4EF1BF021C33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Internal Headers">
+      <UniqueIdentifier>{50B32F29-907C-4B84-84EF-256D066DBADD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Public Headers">
+      <UniqueIdentifier>{14FC1235-6FAB-427A-B647-FBAF6E235279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ThirdParty">
+      <UniqueIdentifier>{DA74CEB0-0B56-414E-9BDB-71A7249289DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common Code">
+      <UniqueIdentifier>{C0FDFB96-367B-4F86-B2CD-98F6DD806541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Handlers">
+      <UniqueIdentifier>{DBA9DA0B-3B5F-4CE2-91CC-31CB7B716DFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Format Support">
+      <UniqueIdentifier>{C9046C82-367D-4836-82EC-2225A3D8549B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PluginHandler">
+      <UniqueIdentifier>{065C2DF6-8E2C-4899-BBE9-03244C935474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ThirdParty">
+      <UniqueIdentifier>{01B13579-E9CD-4CC8-A00E-57FC8B24A569}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

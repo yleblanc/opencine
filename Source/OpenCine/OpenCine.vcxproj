@@ -1,875 +1,656 @@
-﻿<?xml version="1.0" encoding="Windows-1252"?>
-<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|Win32">
-      <Configuration>Debug</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|Win32">
+    <ProjectConfiguration Include="Release|x64">
       <Configuration>Release</Configuration>
-      <Platform>Win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="MinSizeRel|Win32">
-      <Configuration>MinSizeRel</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="RelWithDebInfo|Win32">
-      <Configuration>RelWithDebInfo</Configuration>
-      <Platform>Win32</Platform>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{55878EC6-B3D2-4AE6-97E7-EE9A81273C0D}</ProjectGUID>
-    <Keyword>Win32Proj</Keyword>
-    <Platform>Win32</Platform>
-    <ProjectName>OpenCine</ProjectName>
+    <ProjectGuid>{7936EDD9-B6D9-3581-80A5-A7CEF5801EBF}</ProjectGuid>
+    <RootNamespace>OpenCine</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <PlatformToolSet>v120</PlatformToolSet>
+    <OutputDirectory>release\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
     <ConfigurationType>Application</ConfigurationType>
-    <UseOfMfc>false</UseOfMfc>
-    <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v120</PlatformToolset>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>OpenCine</PrimaryOutput>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <PlatformToolSet>v120</PlatformToolSet>
+    <OutputDirectory>debug\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
     <ConfigurationType>Application</ConfigurationType>
-    <UseOfMfc>false</UseOfMfc>
-    <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v120</PlatformToolset>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
-    <UseOfMfc>false</UseOfMfc>
-    <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v120</PlatformToolset>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
-    <UseOfMfc>false</UseOfMfc>
-    <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v120</PlatformToolset>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>OpenCine</PrimaryOutput>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <ImportGroup Label="ExtensionSettings">
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
   </ImportGroup>
-  <ImportGroup Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\bin\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">OpenCine.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">OpenCine</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\bin\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">OpenCine.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">OpenCine</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\bin\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">OpenCine.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">OpenCine</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\bin\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">OpenCine.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">OpenCine</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
-    </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)build\$(Platform)\$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)build\$(Platform)\$(Configuration)\int</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenCine</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)build\$(Platform)\$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)build\$(Platform)\$(Configuration)\int</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenCine</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalOptions> -std=c++11 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
-      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <CompileAs>CompileAsCpp</CompileAs>
+      <AdditionalIncludeDirectories>.;$(QTDIR)\include;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtQuickWidgets;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtCore;./;./API;./Core;./Model;./DataProvider;./DataStorage;./Presenter;./GeneratedFiles;../../3rdParty/LibRaw;../../3rdParty/Catch;$(QTDIR)\include\QtQml;.\GeneratedFiles;$(QTDIR)\include\QtOpenGL</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -Zc:strictStrings -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;WIN64;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NDEBUG;QT_QML_LIB;QT_OPENGL_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>LibRaw.lib;glu32.lib;opengl32.lib;gdi32.lib;user32.lib;$(QTDIR)\lib\qtmain.lib;shell32.lib;$(QTDIR)\lib\Qt5Core.lib;$(QTDIR)\lib\Qt5Widgets.lib;$(QTDIR)\lib\Qt5Gui.lib;Qt5Qml.lib;Qt5OpenGL.lib;Qt5QuickWidgets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;../../3rdParty/LibRaw/build/$(Platform)/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\OpenCine.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;WIN64;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>cp ../../3rdParty/Libraw/build/$(Platform)/$(Configuration)/LibRaw.dll $(OutDir)
+cp -r ./Icons $(OutDir)
+cp -r ./Themes $(OutDir)
+cp $(QTDIR)/bin/Qt5Core.dll $(OutDir)
+cp $(QTDIR)/bin/Qt5Gui.dll $(OutDir)
+cp $(QTDIR)/bin/Qt5QML.dll $(OutDir)
+cp $(QTDIR)/bin/Qt5Network.dll $(OutDir)
+cp $(QTDIR)/bin/Qt5Quick.dll $(OutDir)
+cp $(QTDIR)/bin/Qt5QuickWidgets.dll $(OutDir)
+cp $(QTDIR)/bin/Qt5Widgets.dll $(OutDir)
+cp $(QTDIR)/bin/icudt53.dll $(OutDir)
+cp $(QTDIR)/bin/icuin53.dll $(OutDir)
+cp $(QTDIR)/bin/icuuc53.dll $(OutDir)
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;$(QTDIR)\include;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtQuickWidgets;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtCore;./;./API;./Core;./Model;./DataProvider;./DataStorage;./Presenter;./GeneratedFiles;../../3rdParty/LibRaw;../../3rdParty/Catch;$(QTDIR)\include\QtQml;.\GeneratedFiles;$(QTDIR)\include\QtOpenGL</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
       <Optimization>Disabled</Optimization>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;WIN64;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QML_LIB;QT_OPENGL_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner></SuppressStartupBanner>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_OPENGL_LIB;WIN32;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_OPENGL_LIB;WIN32;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ResourceCompile>
-    <Midl>
-      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <OutputDirectory>$(IntDir)</OutputDirectory>
-      <HeaderFileName>%(Filename).h</HeaderFileName>
-      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
-      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
-      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
-    </Midl>
-    <PreBuildEvent>
-      <Message>Automatic moc for target OpenCine</Message>
-      <Command>setlocal
-cd C:\yannick\VR\OpenCine\GIT\Source\OpenCine
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeFiles/OpenCine_automoc.dir/ Debug
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-    </PreBuildEvent>
     <Link>
-      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;..\..\bin\libraw.dll;C:\Qt\5.4\mingw491_32\lib\libQt5QuickWidgetsd.a;C:\Qt\5.4\mingw491_32\lib\libQt5OpenGLd.a;C:\Qt\5.4\mingw491_32\lib\libQt5Quickd.a;C:\Qt\5.4\mingw491_32\lib\libQt5Qmld.a;C:\Qt\5.4\mingw491_32\lib\libQt5Networkd.a;C:\Qt\5.4\mingw491_32\lib\libQt5Widgetsd.a;C:\Qt\5.4\mingw491_32\lib\libQt5Guid.a;C:\Qt\5.4\mingw491_32\lib\libQt5Cored.a;C:\Qt\5.4\mingw491_32\lib\libqtmaind.a</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <AdditionalDependencies>LibRaw.lib;glu32.lib;opengl32.lib;gdi32.lib;user32.lib;$(QTDIR)\lib\qtmaind.lib;shell32.lib;$(QTDIR)\lib\Qt5Cored.lib;$(QTDIR)\lib\Qt5Widgetsd.lib;$(QTDIR)\lib\Qt5Guid.lib;Qt5Qmld.lib;Qt5OpenGLd.lib;Qt5QuickWidgetsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;../../3rdParty/LibRaw/build/$(Platform)/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Debug/OpenCine.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/yannick/VR/OpenCine/GIT/bin/OpenCine.pdb</ProgramDataBaseFile>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <OutputFile>$(OutDir)\OpenCine.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
       <SubSystem>Windows</SubSystem>
-      <Version></Version>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
     </Link>
-    <ProjectReference>
-      <LinkLibraryDependencies>false</LinkLibraryDependencies>
-    </ProjectReference>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <ClCompile>
-      <AdditionalOptions> -std=c++11 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AssemblerListingLocation>Release/</AssemblerListingLocation>
-      <CompileAs>CompileAsCpp</CompileAs>
-      <ExceptionHandling>Sync</ExceptionHandling>
-      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
-      <Optimization>MaxSpeed</Optimization>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner></SuppressStartupBanner>
-      <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_OPENGL_LIB;WIN32;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
-    </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_OPENGL_LIB;WIN32;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <OutputDirectory>$(IntDir)</OutputDirectory>
-      <HeaderFileName>%(Filename).h</HeaderFileName>
-      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
-      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
-      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
     </Midl>
-    <PreBuildEvent>
-      <Message>Automatic moc for target OpenCine</Message>
-      <Command>setlocal
-cd C:\yannick\VR\OpenCine\GIT\Source\OpenCine
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeFiles/OpenCine_automoc.dir/ Release
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-    </PreBuildEvent>
-    <Link>
-      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;..\..\bin\libraw.dll;C:\Qt\5.4\mingw491_32\lib\libQt5QuickWidgets.a;C:\Qt\5.4\mingw491_32\lib\libQt5OpenGL.a;C:\Qt\5.4\mingw491_32\lib\libQt5Quick.a;C:\Qt\5.4\mingw491_32\lib\libQt5Qml.a;C:\Qt\5.4\mingw491_32\lib\libQt5Network.a;C:\Qt\5.4\mingw491_32\lib\libQt5Widgets.a;C:\Qt\5.4\mingw491_32\lib\libQt5Gui.a;C:\Qt\5.4\mingw491_32\lib\libQt5Core.a;C:\Qt\5.4\mingw491_32\lib\libqtmain.a</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
-      <GenerateDebugInformation>false</GenerateDebugInformation>
-      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Release/OpenCine.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/yannick/VR/OpenCine/GIT/bin/OpenCine.pdb</ProgramDataBaseFile>
-      <SubSystem>Windows</SubSystem>
-      <Version></Version>
-    </Link>
-    <ProjectReference>
-      <LinkLibraryDependencies>false</LinkLibraryDependencies>
-    </ProjectReference>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
-    <ClCompile>
-      <AdditionalOptions> -std=c++11 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
-      <CompileAs>CompileAsCpp</CompileAs>
-      <ExceptionHandling>Sync</ExceptionHandling>
-      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <Optimization>MinSpace</Optimization>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner></SuppressStartupBanner>
-      <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_OPENGL_LIB;WIN32;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
-    </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_OPENGL_LIB;WIN32;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;WIN64;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
-    <Midl>
-      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <OutputDirectory>$(IntDir)</OutputDirectory>
-      <HeaderFileName>%(Filename).h</HeaderFileName>
-      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
-      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
-      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
-    </Midl>
-    <PreBuildEvent>
-      <Message>Automatic moc for target OpenCine</Message>
-      <Command>setlocal
-cd C:\yannick\VR\OpenCine\GIT\Source\OpenCine
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeFiles/OpenCine_automoc.dir/ MinSizeRel
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-    </PreBuildEvent>
-    <Link>
-      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;..\..\bin\libraw.dll;C:\Qt\5.4\mingw491_32\lib\libQt5QuickWidgets.a;C:\Qt\5.4\mingw491_32\lib\libQt5OpenGL.a;C:\Qt\5.4\mingw491_32\lib\libQt5Quick.a;C:\Qt\5.4\mingw491_32\lib\libQt5Qml.a;C:\Qt\5.4\mingw491_32\lib\libQt5Network.a;C:\Qt\5.4\mingw491_32\lib\libQt5Widgets.a;C:\Qt\5.4\mingw491_32\lib\libQt5Gui.a;C:\Qt\5.4\mingw491_32\lib\libQt5Core.a;C:\Qt\5.4\mingw491_32\lib\libqtmain.a</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
-      <GenerateDebugInformation>false</GenerateDebugInformation>
-      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MinSizeRel/OpenCine.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/yannick/VR/OpenCine/GIT/bin/MinSizeRel/OpenCine.pdb</ProgramDataBaseFile>
-      <SubSystem>Windows</SubSystem>
-      <Version></Version>
-    </Link>
-    <ProjectReference>
-      <LinkLibraryDependencies>false</LinkLibraryDependencies>
-    </ProjectReference>
+    <PostBuildEvent>
+      <Command>cp ../../3rdParty/Libraw/build/$(Platform)/$(Configuration)/LibRaw.dll $(OutDir)
+cp -r ./Icons $(OutDir)
+cp -r ./Themes $(OutDir)
+cp $(QTDIR)/bin/Qt5Cored.dll $(OutDir)
+cp $(QTDIR)/bin/Qt5Guid.dll $(OutDir)
+cp $(QTDIR)/bin/Qt5QMLd.dll $(OutDir)
+cp $(QTDIR)/bin/Qt5Networkd.dll $(OutDir)
+cp $(QTDIR)/bin/Qt5Quickd.dll $(OutDir)
+cp $(QTDIR)/bin/Qt5QuickWidgetsd.dll $(OutDir)
+cp $(QTDIR)/bin/Qt5Widgetsd.dll $(OutDir)
+cp $(QTDIR)/bin/icudt53.dll $(OutDir)
+cp $(QTDIR)/bin/icuin53.dll $(OutDir)
+cp $(QTDIR)/bin/icuuc53.dll $(OutDir)
+</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
-    <ClCompile>
-      <AdditionalOptions> -std=c++11 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
-      <CompileAs>CompileAsCpp</CompileAs>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <ExceptionHandling>Sync</ExceptionHandling>
-      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <Optimization>MaxSpeed</Optimization>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner></SuppressStartupBanner>
-      <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_OPENGL_LIB;WIN32;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ObjectFileName>$(IntDir)</ObjectFileName>
+  <ItemGroup>
+    <ClCompile Include="Console.cpp" />
+    <ClCompile Include="Core\Context.cpp" />
+    <ClCompile Include="DataProvider\FFmpegDataProvider.cpp" />
+    <ClCompile Include="DataProvider\LibRawDataProvider.cpp" />
+    <ClCompile Include="DataProvider\RawSpeedDataProvider.cpp" />
+    <ClCompile Include="DataStorage\StaticMemoryAllocator.cpp" />
+    <ClCompile Include="FileBrowserView.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_Console.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_QUICKWIDGETS_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_OPENGL_LIB;WIN32;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ResourceCompile>
-    <Midl>
-      <AdditionalIncludeDirectories>C:\yannick\VR\OpenCine\GIT\Source\OpenCine;C:\yannick\VR\OpenCine\GIT\3rdParty\LibRaw;C:\yannick\VR\OpenCine\GIT\3rdParty\Catch;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtQuickWidgets;C:\Qt\5.4\mingw491_32\include\QtQuick;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Qt\5.4\mingw491_32\include\QtQml;C:\Qt\5.4\mingw491_32\include\QtNetwork;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtOpenGL;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\API;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <OutputDirectory>$(IntDir)</OutputDirectory>
-      <HeaderFileName>%(Filename).h</HeaderFileName>
-      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
-      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
-      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
-    </Midl>
-    <PreBuildEvent>
-      <Message>Automatic moc for target OpenCine</Message>
-      <Command>setlocal
-cd C:\yannick\VR\OpenCine\GIT\Source\OpenCine
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeFiles/OpenCine_automoc.dir/ RelWithDebInfo
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-    </PreBuildEvent>
-    <Link>
-      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glu32.lib;opengl32.lib;..\..\bin\libraw.dll;C:\Qt\5.4\mingw491_32\lib\libQt5QuickWidgets.a;C:\Qt\5.4\mingw491_32\lib\libQt5OpenGL.a;C:\Qt\5.4\mingw491_32\lib\libQt5Quick.a;C:\Qt\5.4\mingw491_32\lib\libQt5Qml.a;C:\Qt\5.4\mingw491_32\lib\libQt5Network.a;C:\Qt\5.4\mingw491_32\lib\libQt5Widgets.a;C:\Qt\5.4\mingw491_32\lib\libQt5Gui.a;C:\Qt\5.4\mingw491_32\lib\libQt5Core.a;C:\Qt\5.4\mingw491_32\lib\libqtmain.a</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/yannick/VR/OpenCine/GIT/Source/OpenCine/RelWithDebInfo/OpenCine.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/yannick/VR/OpenCine/GIT/bin/RelWithDebInfo/OpenCine.pdb</ProgramDataBaseFile>
-      <SubSystem>Windows</SubSystem>
-      <Version></Version>
-    </Link>
-    <ProjectReference>
-      <LinkLibraryDependencies>false</LinkLibraryDependencies>
-    </ProjectReference>
-  </ItemDefinitionGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Context.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FileBrowserView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImageSource.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MediaExplorerModel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MediaExplorerPresenter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MediaExplorerView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MediaListFileSystemModel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MediaListItemWidget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MediaListWidget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NewMainWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PlaybackPresenter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PlaybackSlider.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PreviewPane.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ThumbnailThread.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_Resources.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Console.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Context.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FileBrowserView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImageSource.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MediaExplorerModel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MediaExplorerPresenter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MediaExplorerView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MediaListFileSystemModel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MediaListItemWidget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MediaListWidget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NewMainWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PlaybackPresenter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PlaybackSlider.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PreviewPane.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ThumbnailThread.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ImageSource.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MediaExplorerView.cpp" />
+    <ClCompile Include="MediaListItemWidget.cpp" />
+    <ClCompile Include="MediaListWidget.cpp" />
+    <ClCompile Include="Model\MediaExplorerModel.cpp" />
+    <ClCompile Include="Model\MediaListFileSystemModel.cpp" />
+    <ClCompile Include="NewMainWindow.cpp" />
+    <ClCompile Include="PlaybackSlider.cpp" />
+    <ClCompile Include="Presenter\MediaExplorerPresenter.cpp" />
+    <ClCompile Include="Presenter\PlaybackPresenter.cpp" />
+    <ClCompile Include="PreviewPane.cpp" />
+    <ClCompile Include="ThumbnailThread.cpp" />
+  </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/yannick/VR/OpenCine/GIT -BC:/yannick/VR/OpenCine/GIT --check-stamp-file C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeFiles\generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeLists.txt;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5QuickWidgets\Qt5QuickWidgetsConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5QuickWidgets\Qt5QuickWidgetsConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5Qml_QtQuick2Plugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/yannick/VR/OpenCine/GIT -BC:/yannick/VR/OpenCine/GIT --check-stamp-file C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeFiles\generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeLists.txt;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5QuickWidgets\Qt5QuickWidgetsConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5QuickWidgets\Qt5QuickWidgetsConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5Qml_QtQuick2Plugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/yannick/VR/OpenCine/GIT -BC:/yannick/VR/OpenCine/GIT --check-stamp-file C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeFiles\generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeLists.txt;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5QuickWidgets\Qt5QuickWidgetsConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5QuickWidgets\Qt5QuickWidgetsConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5Qml_QtQuick2Plugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/yannick/VR/OpenCine/GIT -BC:/yannick/VR/OpenCine/GIT --check-stamp-file C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeFiles\generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/CMakeLists.txt;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5QuickWidgets\Qt5QuickWidgetsConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5QuickWidgets\Qt5QuickWidgetsConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Quick\Qt5QuickConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Quick\Qt5QuickConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5QmlConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5QmlConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5Qml\Qt5Qml_QtQuick2Plugin.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.4\mingw491_32\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    <CustomBuild Include="MainWindow.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+if errorlevel 1 goto VCEnd
+
+if errorlevel 1 goto VCEnd
+endlocal
+"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\release" "-I$(QTDIR)\mkspecs\win32-msvc2013" "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing MainWindow.h...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+if errorlevel 1 goto VCEnd
+
+if errorlevel 1 goto VCEnd
+endlocal
+"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\debug" "-I$(QTDIR)\mkspecs\win32-msvc2013" "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing MainWindow.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Console.ui">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_Console.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_Console.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Console.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Console.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Console.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_Console.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_Console.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_Console.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Console.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Console.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Console.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_Console.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_Console.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_Console.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Console.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Console.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Console.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_Console.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_Console.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_Console.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Console.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Console.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Console.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_Console.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    <CustomBuild Include="MainWindow.ui">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\FileBrowserView.ui">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_FileBrowserView.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_FileBrowserView.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/FileBrowserView.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/FileBrowserView.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\FileBrowserView.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_FileBrowserView.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_FileBrowserView.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_FileBrowserView.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/FileBrowserView.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/FileBrowserView.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\FileBrowserView.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_FileBrowserView.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_FileBrowserView.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_FileBrowserView.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/FileBrowserView.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/FileBrowserView.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\FileBrowserView.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_FileBrowserView.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_FileBrowserView.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_FileBrowserView.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/FileBrowserView.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/FileBrowserView.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\FileBrowserView.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_FileBrowserView.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    <CustomBuild Include="Presenter\PlaybackPresenter.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing PlaybackPresenter.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\debug" "-I$(QTDIR)\mkspecs\win32-msvc2013" "-I.\GeneratedFiles" "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing PlaybackPresenter.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\release" "-I$(QTDIR)\mkspecs\win32-msvc2013" "-I.\GeneratedFiles" "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+    </CustomBuild>
+    <CustomBuild Include="Presenter\MediaExplorerPresenter.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing MediaExplorerPresenter.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\debug" "-I$(QTDIR)\mkspecs\win32-msvc2013" "-I.\GeneratedFiles" "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing MediaExplorerPresenter.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\release" "-I$(QTDIR)\mkspecs\win32-msvc2013" "-I.\GeneratedFiles" "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MainWindow.ui">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_MainWindow.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_MainWindow.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MainWindow.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MainWindow.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MainWindow.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MainWindow.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_MainWindow.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_MainWindow.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MainWindow.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MainWindow.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MainWindow.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MainWindow.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_MainWindow.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_MainWindow.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MainWindow.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MainWindow.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MainWindow.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MainWindow.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_MainWindow.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_MainWindow.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MainWindow.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MainWindow.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MainWindow.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MainWindow.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    <CustomBuild Include="PreviewPane.ui">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+    </CustomBuild>
+    <CustomBuild Include="PlaybackSlider.ui">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+    </CustomBuild>
+    <CustomBuild Include="NewMainWindow.ui">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+    </CustomBuild>
+    <CustomBuild Include="MediaListWidget.ui">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+    </CustomBuild>
+    <CustomBuild Include="MediaListItemWidget.ui">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+    </CustomBuild>
+    <CustomBuild Include="MediaExplorerView.ui">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+    </CustomBuild>
+    <CustomBuild Include="FileBrowserView.ui">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+    </CustomBuild>
+    <CustomBuild Include="Console.ui">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Uic%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
+    </CustomBuild>
+    <CustomBuild Include="Resources.qrc">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(FullPath);.\Icons\frame_fwd.png;.\Icons\frame_rev.png;.\Icons\jump_fwd.png;.\Icons\jump_rev.png;.\Icons\marker_end.png;.\Icons\marker_start.png;.\Icons\play_fwd.png;.\Icons\play_rev.png;.\Icons\stop.png;.\Icons\pause.png;.\Icons\logo.png;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Rcc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\qrc_%(Filename).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\rcc.exe" -name "%(Filename)" -no-compress "%(FullPath)" -o .\GeneratedFiles\qrc_%(Filename).cpp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(FullPath);.\Icons\frame_fwd.png;.\Icons\frame_rev.png;.\Icons\jump_fwd.png;.\Icons\jump_rev.png;.\Icons\marker_end.png;.\Icons\marker_start.png;.\Icons\play_fwd.png;.\Icons\play_rev.png;.\Icons\stop.png;.\Icons\pause.png;.\Icons\logo.png;%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Rcc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\qrc_%(Filename).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\rcc.exe" -name "%(Filename)" -no-compress "%(FullPath)" -o .\GeneratedFiles\qrc_%(Filename).cpp</Command>
+    </CustomBuild>
+    <None Include="Widgets\marker.svg" />
+    <None Include="Widgets\MediaExplorerItem.qml" />
+    <None Include="Widgets\MediaExplorerList.qml" />
+    <None Include="Widgets\RatingControl.qml" />
+    <None Include="Widgets\ScrollBar.qml" />
+    <None Include="Widgets\star.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Model\MediaExplorerModel.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing MediaExplorerModel.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\debug" "-I$(QTDIR)\mkspecs\win32-msvc2013" "-I.\GeneratedFiles" "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing MediaExplorerModel.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\release" "-I$(QTDIR)\mkspecs\win32-msvc2013" "-I.\GeneratedFiles" "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MediaExplorerView.ui">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_MediaExplorerView.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_MediaExplorerView.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MediaExplorerView.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MediaExplorerView.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MediaExplorerView.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MediaExplorerView.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_MediaExplorerView.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_MediaExplorerView.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MediaExplorerView.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MediaExplorerView.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MediaExplorerView.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MediaExplorerView.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_MediaExplorerView.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_MediaExplorerView.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MediaExplorerView.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MediaExplorerView.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MediaExplorerView.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MediaExplorerView.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_MediaExplorerView.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_MediaExplorerView.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MediaExplorerView.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/MediaExplorerView.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MediaExplorerView.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MediaExplorerView.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    <CustomBuild Include="Model\MediaListFileSystemModel.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing MediaListFileSystemModel.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\debug" "-I$(QTDIR)\mkspecs\win32-msvc2013" "-I.\GeneratedFiles" "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing MediaListFileSystemModel.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\release" "-I$(QTDIR)\mkspecs\win32-msvc2013" "-I.\GeneratedFiles" "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\NewMainWindow.ui">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_NewMainWindow.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_NewMainWindow.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/NewMainWindow.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/NewMainWindow.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\NewMainWindow.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_NewMainWindow.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_NewMainWindow.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_NewMainWindow.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/NewMainWindow.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/NewMainWindow.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\NewMainWindow.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_NewMainWindow.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_NewMainWindow.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_NewMainWindow.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/NewMainWindow.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/NewMainWindow.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\NewMainWindow.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_NewMainWindow.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_NewMainWindow.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_NewMainWindow.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/NewMainWindow.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/NewMainWindow.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\NewMainWindow.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_NewMainWindow.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    <ClInclude Include="API\IDataProvider.h" />
+    <ClInclude Include="API\IDataStorage.h" />
+    <ClInclude Include="API\IPlugin.h" />
+    <CustomBuild Include="Console.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing Console.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing Console.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
     </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PlaybackSlider.ui">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_PlaybackSlider.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_PlaybackSlider.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PlaybackSlider.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PlaybackSlider.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PlaybackSlider.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PlaybackSlider.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_PlaybackSlider.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_PlaybackSlider.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PlaybackSlider.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PlaybackSlider.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PlaybackSlider.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PlaybackSlider.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_PlaybackSlider.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_PlaybackSlider.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PlaybackSlider.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PlaybackSlider.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PlaybackSlider.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PlaybackSlider.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_PlaybackSlider.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_PlaybackSlider.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PlaybackSlider.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PlaybackSlider.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PlaybackSlider.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PlaybackSlider.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    <ClInclude Include="Core\ImageData.h" />
+    <CustomBuild Include="FileBrowserView.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing FileBrowserView.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing FileBrowserView.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
     </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PreviewPane.ui">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_PreviewPane.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_PreviewPane.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PreviewPane.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PreviewPane.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PreviewPane.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PreviewPane.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_PreviewPane.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_PreviewPane.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PreviewPane.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PreviewPane.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PreviewPane.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PreviewPane.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_PreviewPane.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_PreviewPane.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PreviewPane.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PreviewPane.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PreviewPane.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PreviewPane.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_PreviewPane.h</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\uic.exe -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/ui_PreviewPane.h C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PreviewPane.ui
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/PreviewPane.ui;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PreviewPane.ui;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PreviewPane.h</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    <ClInclude Include="GeneratedFiles\ui_Console.h" />
+    <ClInclude Include="GeneratedFiles\ui_FileBrowserView.h" />
+    <ClInclude Include="GeneratedFiles\ui_MediaExplorerView.h" />
+    <ClInclude Include="GeneratedFiles\ui_MediaListItemWidget.h" />
+    <ClInclude Include="GeneratedFiles\ui_MediaListWidget.h" />
+    <ClInclude Include="GeneratedFiles\ui_NewMainWindow.h" />
+    <ClInclude Include="GeneratedFiles\ui_PlaybackSlider.h" />
+    <ClInclude Include="GeneratedFiles\ui_PreviewPane.h" />
+    <CustomBuild Include="ImageSource.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing ImageSource.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing ImageSource.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
     </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating qrc_Resources.cpp</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\rcc.exe -name Resources -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/qrc_Resources.cpp C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Resources.qrc
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Resources.qrc;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\frame_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\frame_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\jump_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\jump_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\marker_end.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\marker_start.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\play_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\play_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\stop.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\pause.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\logo.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc.depends;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\qrc_Resources.cpp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating qrc_Resources.cpp</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\rcc.exe -name Resources -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/qrc_Resources.cpp C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Resources.qrc
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Resources.qrc;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\frame_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\frame_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\jump_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\jump_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\marker_end.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\marker_start.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\play_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\play_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\stop.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\pause.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\logo.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc.depends;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\qrc_Resources.cpp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating qrc_Resources.cpp</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\rcc.exe -name Resources -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/qrc_Resources.cpp C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Resources.qrc
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Resources.qrc;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\frame_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\frame_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\jump_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\jump_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\marker_end.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\marker_start.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\play_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\play_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\stop.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\pause.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\logo.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc.depends;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\qrc_Resources.cpp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating qrc_Resources.cpp</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\Qt\5.4\mingw491_32\bin\rcc.exe -name Resources -o C:/yannick/VR/OpenCine/GIT/Source/OpenCine/qrc_Resources.cpp C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Resources.qrc
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/yannick/VR/OpenCine/GIT/Source/OpenCine/Resources.qrc;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\frame_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\frame_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\jump_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\jump_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\marker_end.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\marker_start.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\play_fwd.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\play_rev.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\stop.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\pause.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Icons\logo.png;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc.depends;C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Resources.qrc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yannick\VR\OpenCine\GIT\Source\OpenCine\qrc_Resources.cpp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    <CustomBuild Include="MediaExplorerView.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing MediaExplorerView.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing MediaExplorerView.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
     </CustomBuild>
+    <CustomBuild Include="MediaListItemWidget.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing MediaListItemWidget.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing MediaListItemWidget.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+    </CustomBuild>
+    <CustomBuild Include="MediaListWidget.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing MediaListWidget.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing MediaListWidget.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+    </CustomBuild>
+    <CustomBuild Include="NewMainWindow.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing NewMainWindow.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing NewMainWindow.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+    </CustomBuild>
+    <CustomBuild Include="PlaybackSlider.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing PlaybackSlider.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing PlaybackSlider.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+    </CustomBuild>
+    <CustomBuild Include="PreviewPane.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing PreviewPane.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing PreviewPane.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+    </CustomBuild>
+    <ClInclude Include="TestPluginA.h" />
+    <CustomBuild Include="ThumbnailThread.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing ThumbnailThread.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing ThumbnailThread.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG -DQT_QML_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I." "-I.\API" "-I.\Core" "-I.\Model" "-I.\DataProvider" "-I.\DataStorage" "-I.\Presenter" "-I.\GeneratedFiles" "-I.\..\..\3rdParty\LibRaw" "-I.\..\..\3rdParty\Catch" "-I$(QTDIR)\include\QtQml" "-I.\GeneratedFiles" "-I$(NOINHERIT)\." "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+    </CustomBuild>
+    <CustomBuild Include="Core\Context.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing Context.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\debug" "-I$(QTDIR)\mkspecs\win32-msvc2013" "-I.\GeneratedFiles" "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing Context.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG "-I." "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\release" "-I$(QTDIR)\mkspecs\win32-msvc2013" "-I.\GeneratedFiles" "-IC:\Program Files (x86)\Visual Leak Detector\include"</Command>
+    </CustomBuild>
+    <ClInclude Include="DataProvider\FFmpegDataProvider.h" />
+    <ClInclude Include="DataProvider\LibRawDataProvider.h" />
+    <ClInclude Include="DataProvider\RawSpeedDataProvider.h" />
+    <ClInclude Include="DataStorage\StaticMemoryAllocator.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_Console.h" />
-    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_FileBrowserView.h" />
-    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MainWindow.h" />
-    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_MediaExplorerView.h" />
-    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_NewMainWindow.h" />
-    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PlaybackSlider.h" />
-    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ui_PreviewPane.h" />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Console.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Core\Context.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider\FFmpegDataProvider.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider\LibRawDataProvider.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataProvider\RawSpeedDataProvider.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\DataStorage\StaticMemoryAllocator.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\FileBrowserView.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Main.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MainWindow.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\MediaExplorerView.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Model\MediaExplorerModel.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\NewMainWindow.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PlaybackSlider.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter\MediaExplorerPresenter.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\Presenter\PlaybackPresenter.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\PreviewPane.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\ProcessingPipeline\SimpleProcessingPipeline.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\qrc_Resources.cpp"  />
-    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\Source\OpenCine\OpenCine_automoc.cpp"  />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="C:/yannick/VR/OpenCine/GIT/ZERO_CHECK.vcxproj">
-      <Project>CDF87DAE-C5A1-4819-89D6-29AB7413CF87</Project>
-    </ProjectReference>
+    <Image Include="Icons\frame_fwd.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Icons\frame_rev.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Icons\jump_fwd.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Icons\jump_rev.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Icons\logo.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Icons\marker_end.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Icons\marker_start.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Icons\pause.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Icons\play_fwd.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Icons\play_rev.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Icons\stop.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Image>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <ImportGroup Label="ExtensionTargets">
-  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" Qt5Version_x0020_x64="5.4" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

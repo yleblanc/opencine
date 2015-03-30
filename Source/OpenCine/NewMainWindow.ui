@@ -52,7 +52,7 @@
     </layout>
    </widget>
   </widget>
-  <widget class="QDockWidget" name="topWdget">
+  <widget class="QDockWidget" name="topWidget">
    <property name="floating">
     <bool>false</bool>
    </property>

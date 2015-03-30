@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\WXMPIterator.cpp">
+      <Filter>Source Files\ABI Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\WXMPMeta.cpp">
+      <Filter>Source Files\ABI Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\WXMPUtils.cpp">
+      <Filter>Source Files\ABI Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPIterator.cpp">
+      <Filter>Source Files\Core Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPMeta-GetSet.cpp">
+      <Filter>Source Files\Core Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPMeta-Parse.cpp">
+      <Filter>Source Files\Core Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPMeta-Serialize.cpp">
+      <Filter>Source Files\Core Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPMeta.cpp">
+      <Filter>Source Files\Core Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPUtils-FileInfo.cpp">
+      <Filter>Source Files\Core Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPUtils.cpp">
+      <Filter>Source Files\Core Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zuid\interfaces\MD5.cpp">
+      <Filter>Source Files\Third Party</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\expat\lib\xmlparse.c">
+      <Filter>Source Files\Third Party</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\expat\lib\xmlrole.c">
+      <Filter>Source Files\Third Party</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\expat\lib\xmltok.c">
+      <Filter>Source Files\Third Party</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\ExpatAdapter.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\ParseRDF.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPCore_Impl.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\UnicodeConversions.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XML_Node.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XMP_LibUtils.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\client-glue\WXMPIterator.hpp">
+      <Filter>Header Files\Public\Client Glue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\client-glue\WXMPMeta.hpp">
+      <Filter>Header Files\Public\Client Glue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\client-glue\WXMPUtils.hpp">
+      <Filter>Header Files\Public\Client Glue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\client-glue\WXMP_Common.hpp">
+      <Filter>Header Files\Public\Client Glue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\TXMPIterator.hpp">
+      <Filter>Header Files\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\TXMPMeta.hpp">
+      <Filter>Header Files\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\TXMPUtils.hpp">
+      <Filter>Header Files\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\XMP.hpp">
+      <Filter>Header Files\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\XMP_Const.h">
+      <Filter>Header Files\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\XMP_Environment.h">
+      <Filter>Header Files\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\XMP_Version.h">
+      <Filter>Header Files\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\ExpatAdapter.hpp">
+      <Filter>Header Files\Private\XMPCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\UnicodeConversions.hpp">
+      <Filter>Header Files\Private\XMPCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XMLParserAdapter.hpp">
+      <Filter>Header Files\Private\XMPCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\XMP_BuildInfo.h">
+      <Filter>Header Files\Private\XMPCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPCore_Impl.hpp">
+      <Filter>Header Files\Private\XMPCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPIterator.hpp">
+      <Filter>Header Files\Private\XMPCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPMeta.hpp">
+      <Filter>Header Files\Private\XMPCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\source\XMPUtils.hpp">
+      <Filter>Header Files\Private\XMPCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\resource\win\expat_config.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\build\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\client-glue\TXMPIterator.incl_cpp">
+      <Filter>Header Files\Public\Client Glue</Filter>
+    </None>
+    <None Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\client-glue\TXMPMeta.incl_cpp">
+      <Filter>Header Files\Public\Client Glue</Filter>
+    </None>
+    <None Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\client-glue\TXMPUtils.incl_cpp">
+      <Filter>Header Files\Public\Client Glue</Filter>
+    </None>
+    <None Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\include\XMP.incl_cpp">
+      <Filter>Header Files\Public</Filter>
+    </None>
+    <None Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\UnicodeInlines.incl_cpp">
+      <Filter>Header Files\Private\XMPCore</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPCore\resource\win\XMPCore.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files\Private">
+      <UniqueIdentifier>{7B2F1803-F88D-4F41-B5CE-61482A192C24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Public">
+      <UniqueIdentifier>{FC68FA4D-07C9-4A7E-B9E6-3F202B917254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Private\XMPCore">
+      <UniqueIdentifier>{CDF9142E-9E39-4B5D-ACC9-9BD74F3E6282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{78709AFC-D6B2-4805-9AAF-3B8A1F288BE9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A7150469-EA1A-416E-9402-F668147F9F86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{34B61B2D-0E3F-4BC5-8284-45C4011A8ED5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ABI Wrappers">
+      <UniqueIdentifier>{854A70F7-6CB4-4513-AF00-61466710830B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core Classes">
+      <UniqueIdentifier>{F5E20CB8-9E26-4083-8319-943AD1F59B3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Third Party">
+      <UniqueIdentifier>{7495E966-5D9A-4529-9201-86F1BB6501C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{4AC646D4-1A42-4349-9786-581F48E82462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Public\Client Glue">
+      <UniqueIdentifier>{B842F335-ED2B-4C18-B2E2-91FF63AAD60C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

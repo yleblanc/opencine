@@ -1,0 +1,340 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/9/2015 12:13:33 AM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\3.2.0-rc2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\3.2.0-rc2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.35
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/3.2.0-rc2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/9/2015 12:13:34 AM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\3.2.0-rc2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\3.2.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.36
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/3.2.0-rc2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2886515804.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/9/2015 12:13:34 AM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\cmTryCompileExec2886515804.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2886515804.dir\Debug\".
+  Creating directory "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2886515804.dir\Debug\cmTryCom.A9CBD7AF.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2886515804.dir\Debug\cmTryCom.A9CBD7AF.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2886515804.dir\Debug\\" /Fd"cmTryCompileExec2886515804.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2886515804.dir\Debug\\" /Fd"cmTryCompileExec2886515804.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2886515804.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2886515804.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2886515804.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2886515804.dir\Debug\testCCompiler.obj
+  cmTryCompileExec2886515804.vcxproj -> C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2886515804.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2886515804.dir\Debug\cmTryCom.A9CBD7AF.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2886515804.dir\Debug\cmTryCom.A9CBD7AF.tlog\cmTryCompileExec2886515804.lastbuildstate".
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\cmTryCompileExec2886515804.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.45
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2478769732.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/9/2015 12:13:35 AM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\cmTryCompileExec2478769732.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2478769732.dir\Debug\".
+  Creating directory "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2478769732.dir\Debug\cmTryCom.DD251F0F.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2478769732.dir\Debug\cmTryCom.DD251F0F.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2478769732.dir\Debug\\" /Fd"cmTryCompileExec2478769732.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2478769732.dir\Debug\\" /Fd"cmTryCompileExec2478769732.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2478769732.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2478769732.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2478769732.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2478769732.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec2478769732.vcxproj -> C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2478769732.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2478769732.dir\Debug\cmTryCom.DD251F0F.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2478769732.dir\Debug\cmTryCom.DD251F0F.tlog\cmTryCompileExec2478769732.lastbuildstate".
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\cmTryCompileExec2478769732.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.57
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1223910752.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/9/2015 12:13:35 AM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\cmTryCompileExec1223910752.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1223910752.dir\Debug\".
+  Creating directory "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1223910752.dir\Debug\cmTryCom.B45A8EB5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1223910752.dir\Debug\cmTryCom.B45A8EB5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1223910752.dir\Debug\\" /Fd"cmTryCompileExec1223910752.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1223910752.dir\Debug\\" /Fd"cmTryCompileExec1223910752.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1223910752.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1223910752.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1223910752.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1223910752.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec1223910752.vcxproj -> C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1223910752.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1223910752.dir\Debug\cmTryCom.B45A8EB5.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1223910752.dir\Debug\cmTryCom.B45A8EB5.tlog\cmTryCompileExec1223910752.lastbuildstate".
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\cmTryCompileExec1223910752.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.56
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3310700881.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/9/2015 12:13:36 AM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\cmTryCompileExec3310700881.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3310700881.dir\Debug\".
+  Creating directory "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3310700881.dir\Debug\cmTryCom.DDD2D950.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3310700881.dir\Debug\cmTryCom.DDD2D950.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3310700881.dir\Debug\\" /Fd"cmTryCompileExec3310700881.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3310700881.dir\Debug\\" /Fd"cmTryCompileExec3310700881.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3310700881.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3310700881.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3310700881.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3310700881.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec3310700881.vcxproj -> C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3310700881.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3310700881.dir\Debug\cmTryCom.DDD2D950.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3310700881.dir\Debug\cmTryCom.DDD2D950.tlog\cmTryCompileExec3310700881.lastbuildstate".
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\cmTryCompileExec3310700881.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.59
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3544964933.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/9/2015 12:13:37 AM.
+Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\cmTryCompileExec3544964933.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3544964933.dir\Debug\".
+  Creating directory "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3544964933.dir\Debug\cmTryCom.413421B3.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3544964933.dir\Debug\cmTryCom.413421B3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3544964933.dir\Debug\\" /Fd"cmTryCompileExec3544964933.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3544964933.dir\Debug\\" /Fd"cmTryCompileExec3544964933.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3544964933.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3544964933.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/build/vc12/static/windows/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3544964933.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3544964933.dir\Debug\feature_tests.obj
+  cmTryCompileExec3544964933.vcxproj -> C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3544964933.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3544964933.dir\Debug\cmTryCom.413421B3.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3544964933.dir\Debug\cmTryCom.413421B3.tlog\cmTryCompileExec3544964933.lastbuildstate".
+Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\build\vc12\static\windows\CMakeFiles\CMakeTmp\cmTryCompileExec3544964933.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

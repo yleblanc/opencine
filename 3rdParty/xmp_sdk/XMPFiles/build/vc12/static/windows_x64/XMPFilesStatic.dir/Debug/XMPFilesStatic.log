@@ -1,0 +1,262 @@
+﻿Build started 3/9/2015 12:14:11 AM.
+     1>Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\vc12\static\windows_x64\XMPFilesStatic.vcxproj" on node 3 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/yannick/VR/OpenCine/GIT/3rdParty/xmp_sdk/XMPFiles/build/CMakeLists.txt
+         CMake does not need to re-run because C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\vc12\static\windows_x64\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\.. /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\..\public\include /I"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\..\third-party\expat\zlib" /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\..\XMPFilesPlugins\api\source /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\resource\win /Zi /nologo /W3 /WX- /MP /Od /D WIN_ENV=1 /D _CRT_SECURE_NO_WARNINGS=1 /D _SCL_SECURE_NO_WARNINGS=1 /D WIN64 /D _WIN64=1 /D NOMINMAX /D UNICODE /D _UNICODE /D DEBUG /D _ITERATOR_DEBUG_LEVEL=2 /D XML_STATIC=1 /D HAVE_EXPAT_CONFIG_H=1 /D XMP_StaticBuild=1 /D BUILDING_XMPCOMMON_LIB=1 /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /GF /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"XMPFilesStatic.dir\Debug\\" /Fd"XMPFilesStatic.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt  /J /bigobj "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\adler32.c" "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\compress.c" "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\crc32.c" "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\deflate.c" "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\infback.c" "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\inffast.c" "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\inflate.c" "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\inftrees.c" "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\trees.c" "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\uncompr.c" "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zlib\zutil.c"
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\.. /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\..\public\include /I"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\..\third-party\expat\zlib" /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\..\XMPFilesPlugins\api\source /IC:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\..\resource\win /Zi /nologo /W3 /WX- /MP /Od /D WIN_ENV=1 /D _CRT_SECURE_NO_WARNINGS=1 /D _SCL_SECURE_NO_WARNINGS=1 /D WIN64 /D _WIN64=1 /D NOMINMAX /D UNICODE /D _UNICODE /D DEBUG /D _ITERATOR_DEBUG_LEVEL=2 /D XML_STATIC=1 /D HAVE_EXPAT_CONFIG_H=1 /D XMP_StaticBuild=1 /D BUILDING_XMPCOMMON_LIB=1 /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /GF /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"XMPFilesStatic.dir\Debug\\" /Fd"XMPFilesStatic.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt  /J /bigobj C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\NativeMetadataSupport\IMetadata.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\NativeMetadataSupport\IReconcile.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\NativeMetadataSupport\MetadataSet.cpp "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\third-party\zuid\interfaces\MD5.cpp" C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\UnicodeConversions.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\HandlerRegistry.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\SafeStringAPIs.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\PerfUtils.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\WXMPFiles.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XIO.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\IOUtils.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XML_Node.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XMP_LibUtils.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XMP_ProgressTracker.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\XMPFiles.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\XMPFiles_Impl.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XMPFiles_IO.cpp "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\Host_IO-Win.cpp" C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\AIFF_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\ASF_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\AVCHD_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\Basic_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\FLV_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\InDesign_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\JPEG_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\MP3_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\MPEG2_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\MPEG4_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\P2_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PNG_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PSD_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\RIFF_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\Scanner_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\SonyHDV_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\SWF_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\TIFF_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\Trivial_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\UCF_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\WAVE_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\XDCAMEX_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\XDCAM_Handler.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\AIFF\AIFFBehavior.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\AIFF\AIFFMetadata.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\AIFF\AIFFReconcile.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IFF\Chunk.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IFF\ChunkController.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IFF\ChunkPath.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IFF\IChunkBehavior.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\BEXTMetadata.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\CartMetadata.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\Cr8rMetadata.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\DISPMetadata.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\INFOMetadata.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\iXMLMetadata.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\PrmLMetadata.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\WAVEBehavior.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\WAVEReconcile.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ASF_Support.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ID3_Support.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IPTC_Support.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ISOBaseMedia_Support.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\MOOV_Support.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\P2_Support.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\PackageFormat_Support.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\PNG_Support.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\PostScript_Support.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\PSIR_FileWriter.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\PSIR_MemoryReader.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\QuickTime_Support.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ReconcileIPTC.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ReconcileLegacy.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ReconcileTIFF.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\Reconcile_Impl.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\RIFF.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\RIFF_Support.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\SWF_Support.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\TIFF_FileWriter.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\TIFF_MemoryReader.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\TIFF_Support.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\TimeConversionUtils.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\XDCAM_Support.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\XMPScanner.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\FileHandlerInstance.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\HostAPIImpl.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\Module.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\PluginManager.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\XMPAtoms.cpp C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\OS_Utils_WIN.cpp
+         IMetadata.cpp
+         IReconcile.cpp
+         MetadataSet.cpp
+         MD5.cpp
+         UnicodeConversions.cpp
+         HandlerRegistry.cpp
+         SafeStringAPIs.cpp
+         PerfUtils.cpp
+         WXMPFiles.cpp
+         XIO.cpp
+         IOUtils.cpp
+         XML_Node.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\WXMPFiles.cpp(204): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+         XMP_LibUtils.cpp
+         XMP_ProgressTracker.cpp
+         XMPFiles.cpp
+         XMPFiles_Impl.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XMP_ProgressTracker.cpp(134): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XMP_ProgressTracker.cpp(142): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XMP_ProgressTracker.cpp(149): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\XMP_ProgressTracker.cpp(150): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         XMPFiles_IO.cpp
+         Host_IO-Win.cpp
+         AIFF_Handler.cpp
+         ASF_Handler.cpp
+         AVCHD_Handler.cpp
+         Basic_Handler.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\Host_IO-Win.cpp(756): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\source\Host_IO-Win.cpp(808): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         FLV_Handler.cpp
+         InDesign_Handler.cpp
+         JPEG_Handler.cpp
+         MP3_Handler.cpp
+         MPEG2_Handler.cpp
+         MPEG4_Handler.cpp
+         P2_Handler.cpp
+         PNG_Handler.cpp
+         PostScript_Handler.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\JPEG_Handler.cpp(342): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\JPEG_Handler.cpp(363): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\JPEG_Handler.cpp(375): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\JPEG_Handler.cpp(519): warning C4267: '=' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+         PSD_Handler.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\MP3_Handler.cpp(130): warning C4244: '=' : conversion from 'double' to 'XMP_Uns8', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\MP3_Handler.cpp(131): warning C4244: '=' : conversion from 'double' to 'XMP_Uns8', possible loss of data
+         RIFF_Handler.cpp
+         Scanner_Handler.cpp
+         SonyHDV_Handler.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp(1077): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_StringLen', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp(1254): warning C4244: '+=' : conversion from 'XMP_Int64' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp(1262): warning C4244: '+=' : conversion from 'XMP_Int64' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp(1271): warning C4244: '+=' : conversion from 'XMP_Int64' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp(1303): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_StringLen', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp(1387): warning C4267: 'initializing' : conversion from 'size_t' to 'XMP_Int32', possible loss of data
+         SWF_Handler.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp(1419): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp(1680): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp(1685): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp(1693): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp(1695): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp(1699): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp(1701): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp(1710): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PostScript_Handler.cpp(1723): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+         TIFF_Handler.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\PSD_Handler.cpp(314): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'float', possible loss of data
+         Trivial_Handler.cpp
+         UCF_Handler.cpp
+         WAVE_Handler.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\SWF_Handler.cpp(128): warning C4267: '=' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\SWF_Handler.cpp(298): warning C4267: '=' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\SWF_Handler.cpp(311): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\SWF_Handler.cpp(320): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+         XDCAMEX_Handler.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\TIFF_Handler.cpp(365): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'float', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FileHandlers\TIFF_Handler.cpp(368): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'float', possible loss of data
+         XDCAM_Handler.cpp
+         AIFFBehavior.cpp
+         AIFFMetadata.cpp
+         AIFFReconcile.cpp
+         Chunk.cpp
+         ChunkController.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\AIFF\AIFFBehavior.cpp(177): warning C4244: 'initializing' : conversion from '__int64' to 'XMP_Uns32', possible loss of data
+         ChunkPath.cpp
+         IChunkBehavior.cpp
+         BEXTMetadata.cpp
+         CartMetadata.cpp
+         Cr8rMetadata.cpp
+         DISPMetadata.cpp
+         INFOMetadata.cpp
+         iXMLMetadata.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\IFF\IChunkBehavior.cpp(32): warning C4244: 'return' : conversion from '__int64' to 'XMP_Uns32', possible loss of data
+         PrmLMetadata.cpp
+         WAVEBehavior.cpp
+         WAVEReconcile.cpp
+         ASF_Support.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\INFOMetadata.cpp(155): warning C4267: 'initializing' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\INFOMetadata.cpp(197): warning C4267: 'initializing' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+         ID3_Support.cpp
+         IPTC_Support.cpp
+         ISOBaseMedia_Support.cpp
+         MOOV_Support.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\WAVEBehavior.cpp(255): warning C4244: 'initializing' : conversion from '__int64' to 'XMP_Uns32', possible loss of data
+         P2_Support.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\WAVE\WAVEReconcile.cpp(485): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+         PackageFormat_Support.cpp
+         PNG_Support.cpp
+         PostScript_Support.cpp
+         PSIR_FileWriter.cpp
+         PSIR_MemoryReader.cpp
+         QuickTime_Support.cpp
+         ReconcileIPTC.cpp
+         ReconcileLegacy.cpp
+         ReconcileTIFF.cpp
+         Reconcile_Impl.cpp
+         RIFF.cpp
+         RIFF_Support.cpp
+         SWF_Support.cpp
+         TIFF_FileWriter.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\ReconcileTIFF.cpp(2043): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Index', possible loss of data
+         TIFF_MemoryReader.cpp
+         TIFF_Support.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\SWF_Support.cpp(41): warning C4267: 'initializing' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\SWF_Support.cpp(231): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\SWF_Support.cpp(237): warning C4267: '=' : conversion from 'size_t' to 'uInt', possible loss of data
+         TimeConversionUtils.cpp
+         XDCAM_Support.cpp
+         XMPScanner.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\FormatSupport\TIFF_FileWriter.cpp(1535): warning C4267: 'initializing' : conversion from 'size_t' to 'XMP_Uns32', possible loss of data
+         FileHandlerInstance.cpp
+         HostAPIImpl.cpp
+         Module.cpp
+         PluginManager.cpp
+         XMPAtoms.cpp
+     1>C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\source\PluginHandler\FileHandlerInstance.cpp(82): warning C4267: 'argument' : conversion from 'size_t' to 'XMP_StringLen', possible loss of data
+         OS_Utils_WIN.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\libraries\windows_x64\Debug\XMPFilesStatic.lib" /NOLOGO /MACHINE:X64  /machine:x64 XMPFilesStatic.dir\Debug\adler32.obj
+         XMPFilesStatic.dir\Debug\compress.obj
+         XMPFilesStatic.dir\Debug\crc32.obj
+         XMPFilesStatic.dir\Debug\deflate.obj
+         XMPFilesStatic.dir\Debug\infback.obj
+         XMPFilesStatic.dir\Debug\inffast.obj
+         XMPFilesStatic.dir\Debug\inflate.obj
+         XMPFilesStatic.dir\Debug\inftrees.obj
+         XMPFilesStatic.dir\Debug\trees.obj
+         XMPFilesStatic.dir\Debug\uncompr.obj
+         XMPFilesStatic.dir\Debug\zutil.obj
+         XMPFilesStatic.dir\Debug\IMetadata.obj
+         XMPFilesStatic.dir\Debug\IReconcile.obj
+         XMPFilesStatic.dir\Debug\MetadataSet.obj
+         XMPFilesStatic.dir\Debug\MD5.obj
+         XMPFilesStatic.dir\Debug\UnicodeConversions.obj
+         XMPFilesStatic.dir\Debug\HandlerRegistry.obj
+         XMPFilesStatic.dir\Debug\SafeStringAPIs.obj
+         XMPFilesStatic.dir\Debug\PerfUtils.obj
+         XMPFilesStatic.dir\Debug\WXMPFiles.obj
+         XMPFilesStatic.dir\Debug\XIO.obj
+         XMPFilesStatic.dir\Debug\IOUtils.obj
+         XMPFilesStatic.dir\Debug\XML_Node.obj
+         XMPFilesStatic.dir\Debug\XMP_LibUtils.obj
+         XMPFilesStatic.dir\Debug\XMP_ProgressTracker.obj
+         XMPFilesStatic.dir\Debug\XMPFiles.obj
+         XMPFilesStatic.dir\Debug\XMPFiles_Impl.obj
+         XMPFilesStatic.dir\Debug\XMPFiles_IO.obj
+         "XMPFilesStatic.dir\Debug\Host_IO-Win.obj"
+         XMPFilesStatic.dir\Debug\AIFF_Handler.obj
+         XMPFilesStatic.dir\Debug\ASF_Handler.obj
+         XMPFilesStatic.dir\Debug\AVCHD_Handler.obj
+         XMPFilesStatic.dir\Debug\Basic_Handler.obj
+         XMPFilesStatic.dir\Debug\FLV_Handler.obj
+         XMPFilesStatic.dir\Debug\InDesign_Handler.obj
+         XMPFilesStatic.dir\Debug\JPEG_Handler.obj
+         XMPFilesStatic.dir\Debug\MP3_Handler.obj
+         XMPFilesStatic.dir\Debug\MPEG2_Handler.obj
+         XMPFilesStatic.dir\Debug\MPEG4_Handler.obj
+         XMPFilesStatic.dir\Debug\P2_Handler.obj
+         XMPFilesStatic.dir\Debug\PNG_Handler.obj
+         XMPFilesStatic.dir\Debug\PostScript_Handler.obj
+         XMPFilesStatic.dir\Debug\PSD_Handler.obj
+         XMPFilesStatic.dir\Debug\RIFF_Handler.obj
+         XMPFilesStatic.dir\Debug\Scanner_Handler.obj
+         XMPFilesStatic.dir\Debug\SonyHDV_Handler.obj
+         XMPFilesStatic.dir\Debug\SWF_Handler.obj
+         XMPFilesStatic.dir\Debug\TIFF_Handler.obj
+         XMPFilesStatic.dir\Debug\Trivial_Handler.obj
+         XMPFilesStatic.dir\Debug\UCF_Handler.obj
+         XMPFilesStatic.dir\Debug\WAVE_Handler.obj
+         XMPFilesStatic.dir\Debug\XDCAMEX_Handler.obj
+         XMPFilesStatic.dir\Debug\XDCAM_Handler.obj
+         XMPFilesStatic.dir\Debug\AIFFBehavior.obj
+         XMPFilesStatic.dir\Debug\AIFFMetadata.obj
+         XMPFilesStatic.dir\Debug\AIFFReconcile.obj
+         XMPFilesStatic.dir\Debug\Chunk.obj
+         XMPFilesStatic.dir\Debug\ChunkController.obj
+         XMPFilesStatic.dir\Debug\ChunkPath.obj
+         XMPFilesStatic.dir\Debug\IChunkBehavior.obj
+         XMPFilesStatic.dir\Debug\BEXTMetadata.obj
+         XMPFilesStatic.dir\Debug\CartMetadata.obj
+         XMPFilesStatic.dir\Debug\Cr8rMetadata.obj
+         XMPFilesStatic.dir\Debug\DISPMetadata.obj
+         XMPFilesStatic.dir\Debug\INFOMetadata.obj
+         XMPFilesStatic.dir\Debug\iXMLMetadata.obj
+         XMPFilesStatic.dir\Debug\PrmLMetadata.obj
+         XMPFilesStatic.dir\Debug\WAVEBehavior.obj
+         XMPFilesStatic.dir\Debug\WAVEReconcile.obj
+         XMPFilesStatic.dir\Debug\ASF_Support.obj
+         XMPFilesStatic.dir\Debug\ID3_Support.obj
+         XMPFilesStatic.dir\Debug\IPTC_Support.obj
+         XMPFilesStatic.dir\Debug\ISOBaseMedia_Support.obj
+         XMPFilesStatic.dir\Debug\MOOV_Support.obj
+         XMPFilesStatic.dir\Debug\P2_Support.obj
+         XMPFilesStatic.dir\Debug\PackageFormat_Support.obj
+         XMPFilesStatic.dir\Debug\PNG_Support.obj
+         XMPFilesStatic.dir\Debug\PostScript_Support.obj
+         XMPFilesStatic.dir\Debug\PSIR_FileWriter.obj
+         XMPFilesStatic.dir\Debug\PSIR_MemoryReader.obj
+         XMPFilesStatic.dir\Debug\QuickTime_Support.obj
+         XMPFilesStatic.dir\Debug\ReconcileIPTC.obj
+         XMPFilesStatic.dir\Debug\ReconcileLegacy.obj
+         XMPFilesStatic.dir\Debug\ReconcileTIFF.obj
+         XMPFilesStatic.dir\Debug\Reconcile_Impl.obj
+         XMPFilesStatic.dir\Debug\RIFF.obj
+         XMPFilesStatic.dir\Debug\RIFF_Support.obj
+         XMPFilesStatic.dir\Debug\SWF_Support.obj
+         XMPFilesStatic.dir\Debug\TIFF_FileWriter.obj
+         XMPFilesStatic.dir\Debug\TIFF_MemoryReader.obj
+         XMPFilesStatic.dir\Debug\TIFF_Support.obj
+         XMPFilesStatic.dir\Debug\TimeConversionUtils.obj
+         XMPFilesStatic.dir\Debug\XDCAM_Support.obj
+         XMPFilesStatic.dir\Debug\XMPScanner.obj
+         XMPFilesStatic.dir\Debug\FileHandlerInstance.obj
+         XMPFilesStatic.dir\Debug\HostAPIImpl.obj
+         XMPFilesStatic.dir\Debug\Module.obj
+         XMPFilesStatic.dir\Debug\PluginManager.obj
+         XMPFilesStatic.dir\Debug\XMPAtoms.obj
+         XMPFilesStatic.dir\Debug\OS_Utils_WIN.obj
+         XMPFilesStatic.vcxproj -> C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\public\libraries\windows_x64\Debug\XMPFilesStatic.lib
+     1>Done Building Project "C:\yannick\VR\OpenCine\GIT\3rdParty\xmp_sdk\XMPFiles\build\vc12\static\windows_x64\XMPFilesStatic.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.58

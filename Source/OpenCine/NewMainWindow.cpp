@@ -11,7 +11,7 @@ NewMainWindow::NewMainWindow(OCContext* context, QWidget *parent) :
 
     _context = context;
 
-    ui->topWdget->setTitleBarWidget(new QWidget());
+    ui->topWidget->setTitleBarWidget(new QWidget());
 
     dirModel = new QFileSystemModel(this);
 
